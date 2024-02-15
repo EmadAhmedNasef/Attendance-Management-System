@@ -1,0 +1,63 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Define enumeration for status -->
+    <xs:simpleType name="statusType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="present"/>
+            <xs:enumeration value="absent"/>
+            <!-- You can add more status values here if needed -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Define class attendance records -->
+    <xs:element name="classes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="class">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="teachers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="teacher" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="teacherName" type="xs:string"/>
+                                                    <xs:element name="teacherID" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="records">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="students" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="date" type="xs:string"/>
+                                                    <xs:element name="student" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="studentname" type="xs:string"/>
+                                                                <xs:element name="studentID" type="xs:string"/>
+                                                                <xs:element name="status" type="statusType"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+						<xs:attribute name="name" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,18 @@
+<authentication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\iti\xml\projects\autontication.xsd">
+	<user>
+		<username>admin</username>
+		<password>admin123</password>
+		<role>Admin</role>
+	</user>
+	<user>
+		<username>teacher1</username>
+		<password>teacher123</password>
+		<role>Teacher</role>
+	</user>
+	<user>
+		<username>student1</username>
+		<password>student123</password>
+		<role>Student</role>
+	</user>
+	<!-- Additional users and roles can be added here -->
+</authentication>

@@ -1,0 +1,39 @@
+<?xml-stylesheet type="text/xsl" href="D:\iti\xml\projects\records.xslt"?>
+<classes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\iti\xml\projects\shema.xsd">
+	<class name="anything">
+		<teachers>
+			<teacher>
+				<teacherName>emad</teacherName>
+				<teacherID>10</teacherID>
+			</teacher>
+		</teachers>
+		<records>
+			<students>
+				<date>11-5-2023</date>
+				<student>
+					<studentname>katkot</studentname>
+					<studentID>11</studentID>
+					<status>present</status>
+				</student>
+				<student>
+					<studentname>abdellatief</studentname>
+					<studentID>12</studentID>
+					<status>absent</status>
+				</student>
+			</students>
+			<students>
+				<date>12-5-2023</date>
+				<student>
+					<studentname>katkot</studentname>
+					<studentID>11</studentID>
+					<status>present</status>
+				</student>
+				<student>
+					<studentname>abdellatief</studentname>
+					<studentID>12</studentID>
+					<status>present</status>
+				</student>
+			</students>
+		</records>
+	</class>
+</classes>
