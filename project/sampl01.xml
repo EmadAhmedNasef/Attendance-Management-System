@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <user>
+    <Id>20</Id>
+    <Name>abdo</Name>
+    <Email>hello@gmail.com</Email>
+    <Password>password</Password>
+    <Age>20</Age>
+    <Rr>Admin</Rr>
+  </user>
+  <user>
+    <Id>50</Id>
+    <Name>abdo</Name>
+    <Email>hello@gmail.com</Email>
+    <Password>password</Password>
+    <Age>20</Age>
+    <Rr>Teacher</Rr>
+  </user>
+  <user>
+    <Id>70</Id>
+    <Name>abdo</Name>
+    <Email>hello@gmail.com</Email>
+    <Password>password</Password>
+    <Age>20</Age>
+    <Rr>Student</Rr>
+  </user>
+  <user>
+    <Id>90</Id>
+    <Name>abdo</Name>
+    <Email>hello@gmail.com</Email>
+    <Password>password</Password>
+    <Age>20</Age>
+    <Rr>Student</Rr>
+  </user>
+</ArrayOfUser>
