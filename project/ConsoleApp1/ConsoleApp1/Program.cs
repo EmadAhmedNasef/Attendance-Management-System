@@ -8,13 +8,25 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-          xmloperators.SerializeListToXmlFile();
-            var mem = xmloperators.DeserializeXmlFileToList();
-            Console.WriteLine(mem[1].ToString());
-        }
 
-        
-       
+
+            //xmloperators.SerializeListToXmlFile();
+            //var mem = xmloperators.DeserializeXmlFileToList();
+            //foreach (var item in mem)
+            //{
+            //    Console.WriteLine(item.ToString());
+            //}
+
+            Adminoperation.AddNewUser("abdellatief hamed","abdellatiefhamed@gmail.com", "14114",role.Student,classes.Math,classes.JavaScript );
+
+            Adminoperation.ShowTeachers();
+            Console.WriteLine("\n---------------\n");
+            Adminoperation.ShowStudents();
+
+
+
+
+        }
 
     }
 }

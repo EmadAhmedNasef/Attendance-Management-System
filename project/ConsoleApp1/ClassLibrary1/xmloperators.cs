@@ -18,7 +18,7 @@ namespace ClassLibrary1
                 Name = "abdo",
                 Email = "hello@gmail.com",
                 Password = "password",
-                Age = 20,
+
                 Rr = role.Admin
             };
             var xmlserializer = new XmlSerializer(typeof(user));
@@ -49,72 +49,89 @@ namespace ClassLibrary1
                 Name = "abdo",
                 Email = "hello@gmail.com",
                 Password = "password",
-                Age = 20,
+
                 Rr = role.Admin
             };
 
             var xmlSerializer = new XmlSerializer(typeof(user));
-            using (var writer = new StreamWriter(@"D:\iti\xml\attendance\Attendance-Management-System\project\sampl01.xml"))
+            using (var writer = new StreamWriter(@"D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\sampl01.xml"))
             {
                 xmlSerializer.Serialize(writer, member);
             }
         }
 
+
         public static void SerializeListToXmlFile()
         {
+            
             var memberList = new List<user>
             {
                 new user
                 {
-                    Id = 20,
+                    Id = 1,
                     Name = "abdo",
-                    Email = "hello@gmail.com",
+                    Email = "abdo@gmail.com",
                     Password = "password",
-                    Age = 20,
                     Rr = role.Admin
                 },
                 new user
                 {
-                    Id = 50,
-                    Name = "abdo",
-                    Email = "hello@gmail.com",
+                    Id = 2,
+                    Name = "hamed",
+                    Email = "hamed@gmail.com",
                     Password = "password",
-                    Age = 20,
-                    Rr = role.Teacher
+                    Rr = role.Teacher,
+                    primaryClass = classes.English
+
                 },
                 new user
                 {
-                    Id = 70,
-                    Name = "abdo",
-                    Email = "hello@gmail.com",
+                    Id = 3,
+                    Name = "mohamed",
+                    Email = "mohamed@gmail.com",
                     Password = "password",
-                    Age = 20,
-                    Rr = role.Student
+                    
+                    Rr = role.Student,
+                    primaryClass = classes.English,
+                    SecondryClass = classes.Math
                 },
                 new user
                 {
-                    Id = 90,
-                    Name = "abdo",
-                    Email = "hello@gmail.com",
+                    Id = 4,
+                    Name = "sayed",
+                    Email = "sayed@gmail.com",
                     Password = "password",
-                    Age = 20,
-                    Rr = role.Student
+                    
+                    Rr = role.Student,
+                    primaryClass = classes.English,
+                    SecondryClass = classes.JavaScript
                 }
             };
+            changingxml(memberList);
+        }
 
-            var xmlSerializer = new XmlSerializer(typeof(List<user>));
-            using (var writer = new StreamWriter(@"D:\iti\xml\attendance\Attendance-Management-System\project\sampl01.xml"))
+
+
+        public static void changingxml (List<user> memberList)
+        {
+            var xmlRoot = new XmlRootAttribute("users");
+            var xmlSerializer = new XmlSerializer(typeof(List<user>), xmlRoot);
+            using (var writer = new StreamWriter(@"D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\sampl01.xml"))
             {
                 xmlSerializer.Serialize(writer, memberList);
             }
         }
 
 
+
+        // getting all users in a list
+
         public static List<user> DeserializeXmlFileToList()
         {
             List<user> members = new List<user>();
-            var xmlSerializer = new XmlSerializer(typeof(List<user>));
-            using (var reader = new StreamReader(@"D:\iti\xml\attendance\Attendance-Management-System\project\sampl01.xml"))
+            var xmlRoot = new XmlRootAttribute("users");
+            var xmlSerializer = new XmlSerializer(typeof(List<user>), xmlRoot);
+            using (var reader = new StreamReader(@"D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\sampl01.xml"))
             {
                 members = (List<user>)xmlSerializer.Deserialize(reader);
                 
