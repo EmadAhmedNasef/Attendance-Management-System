@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <user>
+    <Id>1</Id>
+    <Name>abdo</Name>
+    <Email>abdo@gmail.com</Email>
+    <Password>password</Password>
+    <Rr>Admin</Rr>
+  </user>
+  <user>
+    <Id>2</Id>
+    <Name>hamed</Name>
+    <Email>hamed@gmail.com</Email>
+    <Password>password</Password>
+    <Rr>Teacher</Rr>
+    <primaryClass>English</primaryClass>
+  </user>
+  <user>
+    <Id>3</Id>
+    <Name>mohamed</Name>
+    <Email>mohamed@gmail.com</Email>
+    <Password>password</Password>
+    <Rr>Student</Rr>
+    <primaryClass>English</primaryClass>
+    <SecondryClass>Math</SecondryClass>
+  </user>
+  <user>
+    <Id>4</Id>
+    <Name>sayed</Name>
+    <Email>sayed@gmail.com</Email>
+    <Password>password</Password>
+    <Rr>Student</Rr>
+    <primaryClass>English</primaryClass>
+    <SecondryClass>JavaScript</SecondryClass>
+  </user>
+  <user>
+    <Id>5</Id>
+    <Name>abdellatief hamed</Name>
+    <Email>abdellatiefhamed@gmail.com</Email>
+    <Password>14114</Password>
+    <Rr>Student</Rr>
+    <primaryClass>Math</primaryClass>
+    <SecondryClass>JavaScript</SecondryClass>
+  </user>
+</users>
