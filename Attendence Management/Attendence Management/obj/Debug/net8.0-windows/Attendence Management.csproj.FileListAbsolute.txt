@@ -1,0 +1,18 @@
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\bin\Debug\net8.0-windows\Attendence Management.exe
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\bin\Debug\net8.0-windows\Attendence Management.deps.json
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\bin\Debug\net8.0-windows\Attendence Management.runtimeconfig.json
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\bin\Debug\net8.0-windows\Attendence Management.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\bin\Debug\net8.0-windows\Attendence Management.pdb
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence_Management.NewFolder.Forms.FormLogin.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence_Management.Properties.Resources.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence Management.csproj.GenerateResource.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence Management.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence Management.AssemblyInfoInputs.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence Management.AssemblyInfo.cs
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence Management.csproj.CoreCompileInputs.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence Management.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\refint\Attendence Management.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence Management.pdb
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence Management.genruntimeconfig.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\ref\Attendence Management.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence_Management.PAL.Forms.FormForgetPassword.resources

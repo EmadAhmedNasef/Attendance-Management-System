@@ -1,4 +1,4 @@
-<authentication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\iti\xml\projects\autontication.xsd">
+<authentication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\XML\autontication.xsd">
 	<user>
 		<username>admin</username>
 		<password>admin123</password>
