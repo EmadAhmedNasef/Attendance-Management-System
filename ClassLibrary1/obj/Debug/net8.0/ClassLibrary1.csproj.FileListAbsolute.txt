@@ -1,0 +1,35 @@
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.sourcelink.json
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.sourcelink.json
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll

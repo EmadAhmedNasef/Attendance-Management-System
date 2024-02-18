@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="records">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="record" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="date" type="xs:date"/>
+                            <xs:element name="class">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Teacher">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="teacherName" type="xs:string"/>
+                                                    <xs:element name="teacherID" type="xs:int"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Students">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Student" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="studentname" type="xs:string"/>
+                                                                <xs:element name="studentID" type="xs:int"/>
+                                                                <xs:element name="status" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="name" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
