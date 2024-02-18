@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<records xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Records.xsd">
+	<record>
+		<date>2023-11-05</date>
+		<class name="English">
+			<Teacher>
+				<teacherName>hamed</teacherName>
+				<teacherID>2</teacherID>
+			</Teacher>
+			<Students>
+				<Student>
+					<studentname>sayed</studentname>
+					<studentID>4</studentID>
+					<status>present</status>
+				</Student>
+				<Student>
+					<studentname>mohamed </studentname>
+					<studentID>5</studentID>
+					<status>absent</status>
+				</Student>
+			</Students>
+		</class>
+	</record>
+	<record>
+		<date>2023-12-05</date>
+		<class name="Math">
+			<Teacher>
+				<teacherName>hamed</teacherName>
+				<teacherID>2</teacherID>
+			</Teacher>
+			<Students>
+				<Student>
+					<studentname>abdellatief hamed</studentname>
+					<studentID>5</studentID>
+					<status>present</status>
+				</Student>
+			</Students>
+		</class>
+	</record>
+
+</records>

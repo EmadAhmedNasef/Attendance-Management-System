@@ -1,0 +1,45 @@
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.exe
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.deps.json
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.runtimeconfig.json
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.dll
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.pdb
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence_Manngment_System.PAL.Forms.LoginForm.resources
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.csproj.GenerateResource.cache
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.AssemblyInfoInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.AssemblyInfo.cs
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.dll
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\refint\Attendence Manngment System.dll
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.pdb
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.genruntimeconfig.cache
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\ref\Attendence Manngment System.dll
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence_Manngment_System.Properties.Resources.resources
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\XmlClasses.dll
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\XmlClasses.pdb
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.csproj.AssemblyReference.cache
+C:\Users\Ahmed Mostafa\Desktop\c#train\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.csproj.CopyComplete
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence_Manngment_System.PAL.Forms.LoginForm.resources
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence_Manngment_System.Properties.Resources.resources
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.csproj.GenerateResource.cache
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.AssemblyInfoInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.AssemblyInfo.cs
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\refint\Attendence Manngment System.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.pdb
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.exe
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.deps.json
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.runtimeconfig.json
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\Attendence Manngment System.pdb
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.genruntimeconfig.cache
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\ref\Attendence Manngment System.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\bin\Debug\net8.0-windows\ClassLibrary1.pdb
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.csproj.AssemblyReference.cache
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence Manngment System.csproj.CopyComplete
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence_Manngment_System.PAL.Forms.TeacherForm.resources
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence_Manngment_System.PAL.Forms.AdminForm.resources
+C:\Users\Ahmed Mostafa\Desktop\attendence system - Copy\Attendence Manngment System\Attendence Manngment System\obj\Debug\net8.0-windows\Attendence_Manngment_System.PAL.Forms.StudentForm.resources
