@@ -9,7 +9,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace ClassLibrary1
 {
 
- 
+
     public enum role
     {
         Admin = 0, Teacher = 1, Student = 2
@@ -17,15 +17,15 @@ namespace ClassLibrary1
     }
     public enum classes
     {
-       not = 0 , JavaScript = 1, English = 2, Math = 3
+        not = 0, JavaScript = 1, English = 2, Math = 3
     }
 
 
-   
+
     [Serializable]
-    
+
     [XmlRoot("user")]
-    public class user
+    public class user : ICloneable, IComparable<user>
     {
 
 
@@ -34,10 +34,12 @@ namespace ClassLibrary1
         private List<classes> Class;
         private classes prim;
         private classes second;
+        public string Status { get; set; }
 
 
         public int Id { get; set; }
-        public string Name {
+        public string Name
+        {
             get { return _name; }
             set { _name = value; }
         }
@@ -53,11 +55,11 @@ namespace ClassLibrary1
         //    set { Class = value; }
         //}
 
-        
 
-        
+
+
         public classes primaryClass { get => prim; set => prim = (classes)value; }
-        
+
         public classes SecondryClass { get => second; set => second = (classes)value; }
 
         public override string ToString()
@@ -74,9 +76,9 @@ namespace ClassLibrary1
             return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , primaryclass = {primaryClass} , secondryclass = {SecondryClass}";
         }
 
-        public static bool operator == (user left, user right)
+        public static bool operator ==(user left, user right)
         {
-            return left.Id == right.Id ;
+            return left.Id == right.Id;
         }
         public static bool operator !=(user left, user right)
         {
@@ -86,26 +88,32 @@ namespace ClassLibrary1
 
         public override bool Equals(object? obj)
         {
-            if (obj == null)
+            if (obj is user user)
             {
-                return false;
+                return (this.Id == user.Id);
             }
-            if(obj.GetType() != typeof(user)) {
-                return false;
-            }
-            user user = (user)obj;
-            if (user == null)
-            {
-                return false;
-            }
-            return user.Id==Id;
+            return false;
+        }
+        public int CompareTo(user? other)
+        {
+            return other.Id.CompareTo(Id);
         }
 
-
+        public object Clone()
+        {
+            user ClonnedUser = new user();
+            ClonnedUser.Id = Id;
+            ClonnedUser.Name = Name;
+            ClonnedUser.Rr = Rr;
+            ClonnedUser.Email = Email;
+            ClonnedUser.second = second;
+            ClonnedUser.prim = prim;
+            return ClonnedUser;
+        }
         public bool ShouldSerializeprimaryClass()
         {
             // Serialize only if Property is not equal to default value
-            return prim != classes.not ;
+            return prim != classes.not;
         }
         public bool ShouldSerializeSecondryClass()
         {
@@ -113,4 +121,6 @@ namespace ClassLibrary1
             return second != classes.not;
         }
     }
+
+
 }

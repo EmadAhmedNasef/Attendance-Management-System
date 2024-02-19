@@ -1,0 +1,26 @@
+<Students>
+  <Row>
+    <Name>Alice</Name>
+    <Status>Present</Status>
+  </Row>
+  <Row>
+    <Name>Bob</Name>
+    <Status>Absent</Status>
+  </Row>
+  <Row>
+    <Name>Charlie</Name>
+    <Status>Present</Status>
+  </Row>
+  <Row>
+    <Name>David</Name>
+    <Status>Absent</Status>
+  </Row>
+  <Row>
+    <Name>Eve</Name>
+    <Status>Present</Status>
+  </Row>
+  <Row>
+    <Name>Frank</Name>
+    <Status>Present</Status>
+  </Row>
+</Students>

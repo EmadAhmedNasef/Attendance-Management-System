@@ -1,39 +1,40 @@
-<?xml-stylesheet type="text/xsl" href="D:\iti\xml\projects\records.xslt"?>
-<classes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\iti\xml\projects\shema.xsd">
-	<class name="anything">
-		<teachers>
-			<teacher>
-				<teacherName>emad</teacherName>
-				<teacherID>10</teacherID>
-			</teacher>
-		</teachers>
-		<records>
-			<students>
-				<date>11-5-2023</date>
-				<student>
-					<studentname>katkot</studentname>
-					<studentID>11</studentID>
+<?xml version="1.0" encoding="utf-8"?>
+<records xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-AhmedMostafa\Records.xsd">
+	<record>
+		<date>2023-11-05</date>
+		<class name="English">
+			<Teacher>
+				<teacherName>hamed</teacherName>
+				<teacherID>2</teacherID>
+			</Teacher>
+			<Students>
+				<Student>
+					<studentname>sayed</studentname>
+					<studentID>4</studentID>
 					<status>present</status>
-				</student>
-				<student>
-					<studentname>abdellatief</studentname>
-					<studentID>12</studentID>
+				</Student>
+				<Student>
+					<studentname>mohamed </studentname>
+					<studentID>5</studentID>
 					<status>absent</status>
-				</student>
-			</students>
-			<students>
-				<date>12-5-2023</date>
-				<student>
-					<studentname>katkot</studentname>
-					<studentID>11</studentID>
+				</Student>
+			</Students>
+		</class>
+	</record>
+	<record>
+		<date>2023-12-05</date>
+		<class name="Math">
+			<Teacher>
+				<teacherName>hamed</teacherName>
+				<teacherID>2</teacherID>
+			</Teacher>
+			<Students>
+				<Student>
+					<studentname>abdellatief hamed</studentname>
+					<studentID>5</studentID>
 					<status>present</status>
-				</student>
-				<student>
-					<studentname>abdellatief</studentname>
-					<studentID>12</studentID>
-					<status>present</status>
-				</student>
-			</students>
-		</records>
-	</class>
-</classes>
+				</Student>
+			</Students>
+		</class>
+	</record>
+</records>

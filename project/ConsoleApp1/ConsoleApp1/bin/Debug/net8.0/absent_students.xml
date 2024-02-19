@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <string>Alice (Math) : Present</string>
+  <string>Bob (Math) : Absent</string>
+  <string>Charlie (Math) : Present</string>
+  <string>David (English) : Absent</string>
+  <string>Eve (English) : Present</string>
+  <string>Frank (English) : Present</string>
+</ArrayOfString>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,139 +8,95 @@ using System.Xml.Serialization;
 
 namespace ClassLibrary1
 {
-    public static class xmloperators
+
+
+    namespace YourNamespace
     {
-
-        public static void serializedtoxml()
+        [Serializable]
+        [XmlRoot("record")]
+        public class record
         {
-            user user1 = new user
+            private DateOnly date;
+
+            private List<ClassInfo> classInfoList;
+
+            public DateOnly Date { get => date; set => date = value; }
+            [XmlElement("class")]
+            public List<ClassInfo> ClassInfoList { get => classInfoList; set => classInfoList = value; }
+
+            public override string ToString()
             {
-                Id = 10,
-                Name = "abdo",
-                Email = "hello@gmail.com",
-                Password = "password",
-
-                Rr = role.Admin
-            };
-            var xmlserializer = new XmlSerializer(typeof(user));
-            using (var writer = new StringWriter())
-            {
-                xmlserializer.Serialize(writer, user1);
-                var xmlcontent = writer.ToString();
-                Console.WriteLine(xmlcontent);
-
-            };
-        }
-
-
-        public static void DeserializeXmlStringToObject(string xmlString)
-        {
-            var xmlSerializer = new XmlSerializer(typeof(user));
-            using (var reader = new StringReader(xmlString))
-            {
-                var member = (user)xmlSerializer.Deserialize(reader);
+                return $"Date: {Date}";
             }
         }
 
-        public static void SerializeObjectToXmlFile()
+        public class ClassInfo
         {
-            var member = new user
-            {
-                Id = 10,
-                Name = "abdo",
-                Email = "hello@gmail.com",
-                Password = "password",
+            [XmlAttribute("name")]
+            public string ClassName { get; set; }
 
-                Rr = role.Admin
-            };
+            [XmlElement("Teacher")]
+            public Teacher Teacher { get; set; }
 
-            var xmlSerializer = new XmlSerializer(typeof(user));
-            using (var writer = new StreamWriter(@"C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\sampl01.xml"))
+
+            [XmlArray("Students")]
+            [XmlArrayItem("Student")]
+            public List<Student> Students { get; set; }
+            public ClassInfo()
             {
-                xmlSerializer.Serialize(writer, member);
+                Students = new List<Student>();
+            }
+
+            public override string ToString()
+            {
+                return $"Course Name: {ClassName}\nTeacher Name: {Teacher}";
             }
         }
 
 
-        public static void SerializeListToXmlFile()
+        public class Teacher : user
         {
+            public string TeacherName { get; set; }
 
-            var memberList = new List<user>
+            public override string ToString()
             {
-                new user
-                {
-                    Id = 1,
-                    Name = "abdo",
-                    Email = "abdo@gmail.com",
-                    Password = "password",
-                    Rr = role.Admin
-                },
-                new user
-                {
-                    Id = 2,
-                    Name = "hamed",
-                    Email = "hamed@gmail.com",
-                    Password = "password",
-                    Rr = role.Teacher,
-                    primaryClass = classes.English
+                return $"Teacher Name: {TeacherName}, Teacher ID: {this.Id}";
+            }
 
-                },
-                new user
+            public List<string> GetAbsentStudents(record record)
+            {
+                List<string> absentStudents = new List<string>();
+                foreach (var classInfo in record.ClassInfoList)
                 {
-                    Id = 3,
-                    Name = "mohamed",
-                    Email = "mohamed@gmail.com",
-                    Password = "password",
-
-                    Rr = role.Student,
-                    primaryClass = classes.English,
-                    SecondryClass = classes.Math
-                },
-                new user
-                {
-                    Id = 4,
-                    Name = "sayed",
-                    Email = "sayed@gmail.com",
-                    Password = "password",
-
-                    Rr = role.Student,
-                    primaryClass = classes.English,
-                    SecondryClass = classes.JavaScript
+                    foreach (var student in classInfo.Students)
+                    {
+                        if (student.Status != "Present")
+                        {
+                            absentStudents.Add($"{student.studentname} ({classInfo.ClassName}) : {student.status}");
+                        }
+                    }
                 }
-            };
-            changingxml(memberList);
-        }
-
-
-
-        public static void changingxml(List<user> memberList)
-        {
-            var xmlRoot = new XmlRootAttribute("users");
-            var xmlSerializer = new XmlSerializer(typeof(List<user>), xmlRoot);
-            using (var writer = new StreamWriter(@"C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\sampl01.xml"))
-            {
-                xmlSerializer.Serialize(writer, memberList);
+                return absentStudents;
             }
         }
+    }
 
 
+    // 
+    [XmlRoot("Student")]
+    public class Student : user
+    {
+        [XmlElement("studentname")]
+        public string studentname { get; set; }
 
-        // getting all users in a list
+        public int studentID { get; set; }
+        [XmlElement("status")]
+        public string status { get; set; }
 
-        public static List<user> DeserializeXmlFileToList()
+        public override string ToString()
         {
-            List<user> members = new List<user>();
-            var xmlRoot = new XmlRootAttribute("users");
-            var xmlSerializer = new XmlSerializer(typeof(List<user>), xmlRoot);
-            using (var reader = new StreamReader(@"C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\sampl01.xml"))
-            {
-                members = (List<user>)xmlSerializer.Deserialize(reader);
-
-            }
-
-            return members;
+            return $"Student Name: {studentname}, Student ID: {studentID}, Status: {status}";
         }
-
-
     }
 }
+

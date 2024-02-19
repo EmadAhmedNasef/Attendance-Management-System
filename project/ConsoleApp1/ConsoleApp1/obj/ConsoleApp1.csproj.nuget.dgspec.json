@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectUniqueName": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
         "projectName": "ClassLibrary1",
-        "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectPath": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
         "packagesPath": "C:\\Users\\Nasef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\obj\\",
+        "outputPath": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Nasef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
-                "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj"
+              "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj"
               }
             }
           }
