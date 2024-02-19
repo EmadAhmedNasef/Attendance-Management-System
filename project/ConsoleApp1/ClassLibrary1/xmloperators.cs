@@ -61,6 +61,9 @@ namespace ClassLibrary1
         }
 
 
+
+        //---------------------------------------------------------
+
         public static void SerializeListToXmlFile()
         {
             
@@ -93,7 +96,7 @@ namespace ClassLibrary1
                     
                     Rr = role.Student,
                     primaryClass = classes.English,
-                    SecondryClass = classes.Math
+                    
                 },
                 new user
                 {
@@ -104,7 +107,7 @@ namespace ClassLibrary1
                     
                     Rr = role.Student,
                     primaryClass = classes.English,
-                    SecondryClass = classes.JavaScript
+                   
                 }
             };
             changingxml(memberList);

@@ -1,0 +1,29 @@
+﻿using ClassLibrary1;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AdminForm
+{
+    public static class operations
+    {
+
+        public static bool matchingEmail(String Email, string pass)
+        {
+            bool s = true;
+            List<user> li = xmloperators.DeserializeXmlFileToList();
+            for (int i = 0; i < li.Count; i++)
+            {
+                if (li[i].Email == Email && li[i].Password == pass)
+                {
+                    s = false;
+                    DialogResult dialogResult = MessageBox.Show("Choose Different Email and Pass", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    break;
+                }
+            }
+            return s;
+        }
+    }
+}

@@ -58,7 +58,7 @@ namespace ClassLibrary1
         
         public classes primaryClass { get => prim; set => prim = (classes)value; }
         
-        public classes SecondryClass { get => second; set => second = (classes)value; }
+        //public classes SecondryClass { get => second; set => second = (classes)value; }
 
         public override string ToString()
         {
@@ -71,7 +71,7 @@ namespace ClassLibrary1
             {
                 return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , class = {primaryClass}";
             }
-            return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , primaryclass = {primaryClass} , secondryclass = {SecondryClass}";
+            return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , class = {primaryClass} ";
         }
 
         public static bool operator == (user left, user right)
@@ -107,10 +107,10 @@ namespace ClassLibrary1
             // Serialize only if Property is not equal to default value
             return prim != classes.not ;
         }
-        public bool ShouldSerializeSecondryClass()
-        {
-            // Serialize only if Property is not equal to default value
-            return second != classes.not;
-        }
+        //public bool ShouldSerializeSecondryClass()
+        //{
+        //    // Serialize only if Property is not equal to default value
+        //    return second != classes.not;
+        //}
     }
 }
