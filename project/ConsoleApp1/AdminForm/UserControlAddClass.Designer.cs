@@ -133,6 +133,7 @@
             // 
             // comboBoxClass
             // 
+            comboBoxClass.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxClass.FlatStyle = FlatStyle.Flat;
             comboBoxClass.FormattingEnabled = true;
             comboBoxClass.Items.AddRange(new object[] { "Math", "English" });
@@ -144,6 +145,7 @@
             // 
             // comboBoxRole
             // 
+            comboBoxRole.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxRole.FlatStyle = FlatStyle.Flat;
             comboBoxRole.FormattingEnabled = true;
             comboBoxRole.Items.AddRange(new object[] { "Student", "Teacher", "Admin" });
@@ -314,7 +316,7 @@
             tabPageShow.Location = new Point(4, 4);
             tabPageShow.Name = "tabPageShow";
             tabPageShow.Padding = new Padding(3);
-            tabPageShow.Size = new Size(934, 472);
+            tabPageShow.Size = new Size(934, 473);
             tabPageShow.TabIndex = 1;
             tabPageShow.Text = "Show Users";
             tabPageShow.UseVisualStyleBackColor = true;
@@ -476,7 +478,7 @@
             tabPageEdit.Location = new Point(4, 4);
             tabPageEdit.Name = "tabPageEdit";
             tabPageEdit.Padding = new Padding(3);
-            tabPageEdit.Size = new Size(934, 473);
+            tabPageEdit.Size = new Size(934, 472);
             tabPageEdit.TabIndex = 2;
             tabPageEdit.Text = "Edit And Delete";
             tabPageEdit.UseVisualStyleBackColor = true;
@@ -494,9 +496,11 @@
             buttonDelete.TabIndex = 0;
             buttonDelete.Text = "Delete User";
             buttonDelete.UseVisualStyleBackColor = false;
+            buttonDelete.Click += buttonDelete_Click;
             // 
             // comboBoxClass1
             // 
+            comboBoxClass1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxClass1.FlatStyle = FlatStyle.Flat;
             comboBoxClass1.FormattingEnabled = true;
             comboBoxClass1.Items.AddRange(new object[] { "Math", "English" });
@@ -504,16 +508,19 @@
             comboBoxClass1.Name = "comboBoxClass1";
             comboBoxClass1.Size = new Size(270, 24);
             comboBoxClass1.TabIndex = 0;
+            comboBoxClass1.SelectedIndexChanged += comboBoxClass1_SelectedIndexChanged;
             // 
             // comboBoxRole1
             // 
+            comboBoxRole1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxRole1.FlatStyle = FlatStyle.Flat;
             comboBoxRole1.FormattingEnabled = true;
-            comboBoxRole1.Items.AddRange(new object[] { "Student", "Teacher" });
+            comboBoxRole1.Items.AddRange(new object[] { "Student", "Teacher", "Admin" });
             comboBoxRole1.Location = new Point(557, 230);
             comboBoxRole1.Name = "comboBoxRole1";
             comboBoxRole1.Size = new Size(270, 24);
             comboBoxRole1.TabIndex = 0;
+            comboBoxRole1.SelectedIndexChanged += comboBoxRole1_SelectedIndexChanged;
             // 
             // buttonEdit
             // 
@@ -528,6 +535,7 @@
             buttonEdit.TabIndex = 0;
             buttonEdit.Text = "Edit User";
             buttonEdit.UseVisualStyleBackColor = false;
+            buttonEdit.Click += buttonEdit_Click;
             // 
             // panel7
             // 

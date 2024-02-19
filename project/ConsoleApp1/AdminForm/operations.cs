@@ -25,5 +25,15 @@ namespace AdminForm
             }
             return s;
         }
+
+        public static int search(int _id)
+        {
+            List<user> li = xmloperators.DeserializeXmlFileToList();
+            for(int i = 0;i < li.Count;i++)
+            {
+                if (li[i].Id == _id) { return i; }
+            }
+            return -1;
+        }
     }
 }
