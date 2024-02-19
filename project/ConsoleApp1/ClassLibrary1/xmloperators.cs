@@ -9,7 +9,7 @@ namespace ClassLibrary1
 {
     public static class xmloperators
     {
-        
+
         public static void serializedtoxml()
         {
             user user1 = new user
@@ -54,7 +54,7 @@ namespace ClassLibrary1
             };
 
             var xmlSerializer = new XmlSerializer(typeof(user));
-            using (var writer = new StreamWriter(@"D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\sampl01.xml"))
+            using (var writer = new StreamWriter(@"C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\sampl01.xml"))
             {
                 xmlSerializer.Serialize(writer, member);
             }
@@ -63,7 +63,7 @@ namespace ClassLibrary1
 
         public static void SerializeListToXmlFile()
         {
-            
+
             var memberList = new List<user>
             {
                 new user
@@ -90,7 +90,7 @@ namespace ClassLibrary1
                     Name = "mohamed",
                     Email = "mohamed@gmail.com",
                     Password = "password",
-                    
+
                     Rr = role.Student,
                     primaryClass = classes.English,
                     SecondryClass = classes.Math
@@ -101,7 +101,7 @@ namespace ClassLibrary1
                     Name = "sayed",
                     Email = "sayed@gmail.com",
                     Password = "password",
-                    
+
                     Rr = role.Student,
                     primaryClass = classes.English,
                     SecondryClass = classes.JavaScript
@@ -112,11 +112,11 @@ namespace ClassLibrary1
 
 
 
-        public static void changingxml (List<user> memberList)
+        public static void changingxml(List<user> memberList)
         {
             var xmlRoot = new XmlRootAttribute("users");
             var xmlSerializer = new XmlSerializer(typeof(List<user>), xmlRoot);
-            using (var writer = new StreamWriter(@"D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\sampl01.xml"))
+            using (var writer = new StreamWriter(@"C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\sampl01.xml"))
             {
                 xmlSerializer.Serialize(writer, memberList);
             }
@@ -131,10 +131,10 @@ namespace ClassLibrary1
             List<user> members = new List<user>();
             var xmlRoot = new XmlRootAttribute("users");
             var xmlSerializer = new XmlSerializer(typeof(List<user>), xmlRoot);
-            using (var reader = new StreamReader(@"D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\sampl01.xml"))
+            using (var reader = new StreamReader(@"C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\sampl01.xml"))
             {
                 members = (List<user>)xmlSerializer.Deserialize(reader);
-                
+
             }
 
             return members;

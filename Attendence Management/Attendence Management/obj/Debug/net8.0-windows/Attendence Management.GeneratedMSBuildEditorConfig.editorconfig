@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Attendence_Management
-build_property.ProjectDir = D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\Attendence Management\Attendence Management\
+build_property.ProjectDir = C:\Users\Nasef\Desktop\Project\Attendence Management\Attendence Management\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

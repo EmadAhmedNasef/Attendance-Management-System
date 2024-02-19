@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\Attendence Management\\Attendence Management\\Attendence Management.csproj": {}
+    "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\Attendence Management\\Attendence Management.csproj": {}
   },
   "projects": {
-    "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\Attendence Management\\Attendence Management\\Attendence Management.csproj": {
+    "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\Attendence Management\\Attendence Management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\Attendence Management\\Attendence Management\\Attendence Management.csproj",
+        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\Attendence Management\\Attendence Management.csproj",
         "projectName": "Attendence Management",
-        "projectPath": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\Attendence Management\\Attendence Management\\Attendence Management.csproj",
+        "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\Attendence Management\\Attendence Management.csproj",
         "packagesPath": "C:\\Users\\Nasef\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\Courses\\Fullstack\\ITI C44\\C# [Programming]\\Attendance-Management-System-abdellatief\\Attendence Management\\Attendence Management\\obj\\",
+        "outputPath": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\Attendence Management\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,7 +31,14 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ClassLibrary1\\ClassLibrary1.csproj"
+              },
+              "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ConsoleAttendence\\ConsoleAttendence.csproj": {
+                "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ConsoleAttendence\\ConsoleAttendence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +67,128 @@
             },
             "Microsoft.WindowsDesktop.App.WindowsForms": {
               "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ClassLibrary1\\ClassLibrary1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ClassLibrary1\\ClassLibrary1.csproj",
+        "packagesPath": "C:\\Users\\Nasef\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nasef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ConsoleAttendence\\ConsoleAttendence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ConsoleAttendence\\ConsoleAttendence.csproj",
+        "projectName": "ConsoleAttendence",
+        "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ConsoleAttendence\\ConsoleAttendence.csproj",
+        "packagesPath": "C:\\Users\\Nasef\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ConsoleAttendence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nasef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\Attendence Management\\ClassLibrary1\\ClassLibrary1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
