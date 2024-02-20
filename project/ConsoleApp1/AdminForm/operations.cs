@@ -35,5 +35,20 @@ namespace AdminForm
             }
             return -1;
         }
+
+        public static bool lastuser( role rr)
+        {
+            int count = 0;
+            List<user>li =  xmloperators.DeserializeXmlFileToList();
+            for(int i = 0; i < li.Count ; i++) 
+            {
+                if (li[i].Rr == rr)
+                {
+                    count++;
+                    if (count >= 2) { return true; }
+                }
+            }
+            return false;
+        }
     }
 }

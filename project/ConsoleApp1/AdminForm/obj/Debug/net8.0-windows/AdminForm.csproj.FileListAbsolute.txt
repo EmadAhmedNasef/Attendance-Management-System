@@ -21,3 +21,4 @@ D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.AssemblyReference.cache
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.CopyComplete
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.UserControlAddClass.resources
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.UserControlClass.resources

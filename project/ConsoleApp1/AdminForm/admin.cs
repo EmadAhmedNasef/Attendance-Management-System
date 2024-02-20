@@ -18,6 +18,7 @@ namespace AdminForm
         private void buttonMiniMize_Click(object sender, EventArgs e)
         {
             panel4.Hide();
+            this.WindowState = FormWindowState.Minimized;
             //WindowState = FormWindowState.Minimized;
         }
 
@@ -59,24 +60,28 @@ namespace AdminForm
 
         private void buttonUsers_Click(object sender, EventArgs e)
         {
+            userControlClass1.Visible = false;
             userControlAddClass1.Visible = true;
             moveSidePanel(buttonUsers);
         }
 
         private void buttonClasses_Click(object sender, EventArgs e)
         {
+            userControlClass1.Visible = true;
             userControlAddClass1.Visible = false;
             moveSidePanel(buttonClasses);
         }
 
         private void buttonAttendance_Click(object sender, EventArgs e)
         {
+            userControlClass1.Visible = false;
             userControlAddClass1.Visible = false;
             moveSidePanel(buttonAttendance);
         }
 
         private void buttonRepots_Click(object sender, EventArgs e)
         {
+            userControlClass1.Visible = false;
             userControlAddClass1.Visible = false;
             moveSidePanel(buttonRepots);
         }

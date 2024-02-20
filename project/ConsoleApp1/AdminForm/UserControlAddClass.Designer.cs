@@ -478,7 +478,7 @@
             tabPageEdit.Location = new Point(4, 4);
             tabPageEdit.Name = "tabPageEdit";
             tabPageEdit.Padding = new Padding(3);
-            tabPageEdit.Size = new Size(934, 472);
+            tabPageEdit.Size = new Size(934, 473);
             tabPageEdit.TabIndex = 2;
             tabPageEdit.Text = "Edit And Delete";
             tabPageEdit.UseVisualStyleBackColor = true;

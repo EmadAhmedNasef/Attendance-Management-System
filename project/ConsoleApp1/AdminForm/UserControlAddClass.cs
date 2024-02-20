@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using ClassLibrary1;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using ClassLibrary1;
 using System.Text.RegularExpressions;
 
 namespace AdminForm
@@ -75,6 +67,7 @@ namespace AdminForm
                 return false;
             }
         }
+        //add user button
         private void buttonAddUser_Click(object sender, EventArgs e)
         {
 
@@ -131,7 +124,8 @@ namespace AdminForm
 
         private void tabPageShow_Leave(object sender, EventArgs e)
         {
-            dataGridViewUsers.Rows.Clear();
+            textBoxSearch.Text = "";
+            //dataGridViewUsers.Rows.Clear();
         }
 
 
@@ -157,7 +151,7 @@ namespace AdminForm
             }
             labelNumberofUsers.Text = searched.Count.ToString();
         }
-
+        //selected user from data grid view
         private void dataGridViewUsers_SelectionChanged(object sender, EventArgs e)
         {
 
@@ -172,6 +166,20 @@ namespace AdminForm
                 textBoxPassword1.Text = selectedRow.Cells[3].Value.ToString();
                 comboBoxClass1.SelectedItem = selectedRow.Cells[4].Value.ToString();
                 comboBoxRole1.SelectedItem = selectedRow.Cells[5].Value.ToString();
+
+                if (selectedRow.Cells[5].Value.ToString() == "Admin")
+                {
+                    label11.Hide();
+                    comboBoxClass1.Hide();
+                    panel7.Hide();
+                }
+                else
+                {
+                    label11.Show();
+                    comboBoxClass1.Show();
+                    panel7.Show();
+                }
+                role = (role)Enum.Parse(typeof(role), selectedRow.Cells[5].Value.ToString());
 
             }
         }
@@ -207,28 +215,44 @@ namespace AdminForm
             }
             return m;
         }
-        private bool matchroleandclass1()
+
+        private bool selecteditem()
         {
-            if (comboBoxRole1.SelectedIndex != -1
-                && comboBoxClass1.SelectedIndex != -1)
+            if (dataGridViewUsers.SelectedRows.Count > 0)
             {
                 return true;
             }
             else
             {
-                DialogResult dialogResult = MessageBox.Show("Please enter a role and class", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                DialogResult dialogResult = MessageBox.Show("Please select a user first", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return false;
             }
         }
 
+        private bool lastofKind(role rr, int ind)
+        {
+            List<user> li = xmloperators.DeserializeXmlFileToList();
+            if (li[ind].Rr == role.Student || operations.lastuser(li[ind].Rr) || li[ind].Rr == rr)
+            {
+                return true;
+            }
+            else
+            {
+                DialogResult dialogResult = MessageBox.Show("We can't Edit the role for this user currently", "warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+        }
+        //actual edit button
         private void buttonEdit_Click(object sender, EventArgs e)
         {
             List<user> li = xmloperators.DeserializeXmlFileToList();
             int index = operations.search(id_);
-            if (matchName1() && MatchEmail1()
+            if (selecteditem() &&
+                matchName1() && MatchEmail1()
                 && MathcPassword1()
+                && lastofKind(role, index)
                 //&& operations.matchingEmail(textBoxEmail1.Text, textBoxPassword1.Text)
-                && matchroleandclass1())
+                )
             {
                 li[index].Name = textBoxName1.Text;
                 li[index].Email = textBoxEmail1.Text;
@@ -240,33 +264,68 @@ namespace AdminForm
             }
         }
 
+
+        //delete button
         private void buttonDelete_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Are You Sure You want to Delete", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            int index = operations.search(id_);
-            if (dialogResult == DialogResult.Yes)
+            if (dataGridViewUsers.SelectedRows.Count > 0)
             {
-                Adminoperation.RemoveUser(index);
-                textBoxName1.Text = "";
-                textBoxEmail1.Text = "";
-                textBoxPassword1.Text = "";
-                comboBoxClass1.SelectedIndex = -1;
-                comboBoxRole1.SelectedIndex = -1;
+                DialogResult dialogResult = MessageBox.Show("Are You Sure You want to Delete", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                int index = operations.search(id_);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    if (role == role.Admin && !operations.lastuser(role.Admin))
+                    {
+                        DialogResult dialogResult1 = MessageBox.Show("Sorry we Can't Delete Last Admin", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        Adminoperation.RemoveUser(index);
+                        textBoxName1.Text = "";
+                        textBoxEmail1.Text = "";
+                        textBoxPassword1.Text = "";
+                        comboBoxClass1.SelectedIndex = -1;
+                        comboBoxRole1.SelectedIndex = -1;
+                    }
+                }
+            }
+            else
+            {
+                DialogResult dialogResult = MessageBox.Show("Please select a user", "error", MessageBoxButtons.OK, MessageBoxIcon.Question);
+
             }
         }
 
         private void comboBoxRole1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBoxRole1.SelectedIndex == 0) { role = role.Student; }
-            if (comboBoxRole1.SelectedIndex == 1) { role = role.Teacher; }
-            if (comboBoxRole1.SelectedIndex == 2) { role = role.Admin; }
+            if (comboBoxRole1.SelectedIndex == 0) 
+            { 
+                role = role.Student;
+                label11.Show();
+                comboBoxClass1.Show();
+                panel7.Show();
+            }
+            if (comboBoxRole1.SelectedIndex == 1) 
+            {
+                role = role.Teacher;
+                label11.Show();
+                comboBoxClass1.Show();
+                panel7.Show();
+            }
+            if (comboBoxRole1.SelectedIndex == 2)
+            {
+                role = role.Admin;
+                label11.Hide();
+                comboBoxClass1.Hide();
+                panel7.Hide();
+            }
         }
 
         private void comboBoxClass1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBoxClass.SelectedIndex == 0) { cls = classes.Math; }
-            if (comboBoxClass.SelectedIndex == 1)
+            if (comboBoxClass1.SelectedIndex == 0) { cls = classes.Math; }
+            if (comboBoxClass1.SelectedIndex == 1)
             {
                 cls = classes.English;
             }

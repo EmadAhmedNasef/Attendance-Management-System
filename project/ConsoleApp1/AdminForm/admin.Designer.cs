@@ -58,6 +58,7 @@ namespace AdminForm
             label4 = new Label();
             timerDateAndTime = new System.Windows.Forms.Timer(components);
             userControlAddClass1 = new UserControlAddClass();
+            userControlClass1 = new UserControlClass();
             panel1.SuspendLayout();
             panel6.SuspendLayout();
             panel2.SuspendLayout();
@@ -378,12 +379,21 @@ namespace AdminForm
             // userControlAddClass1
             // 
             userControlAddClass1.BackColor = Color.White;
-            userControlAddClass1.Dock = DockStyle.Fill;
             userControlAddClass1.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
-            userControlAddClass1.Location = new Point(258, 165);
+            userControlAddClass1.Location = new Point(258, 166);
             userControlAddClass1.Name = "userControlAddClass1";
-            userControlAddClass1.Size = new Size(926, 516);
+            userControlAddClass1.Size = new Size(1184, 681);
             userControlAddClass1.TabIndex = 0;
+            // 
+            // userControlClass1
+            // 
+            userControlClass1.BackColor = Color.White;
+            userControlClass1.Location = new Point(258, 166);
+            userControlClass1.Margin = new Padding(4);
+            userControlClass1.Name = "userControlClass1";
+            userControlClass1.Size = new Size(1211, 635);
+            userControlClass1.TabIndex = 0;
+            userControlClass1.Visible = false;
             // 
             // admin
             // 
@@ -391,9 +401,10 @@ namespace AdminForm
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1184, 681);
-            Controls.Add(userControlAddClass1);
+            Controls.Add(userControlClass1);
             Controls.Add(PanelBack);
             Controls.Add(panel1);
+            Controls.Add(userControlAddClass1);
             Cursor = Cursors.Hand;
             Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Margin = new Padding(4);
@@ -446,5 +457,6 @@ namespace AdminForm
         private Button buttonAttendance;
         private System.Windows.Forms.Timer timerDateAndTime;
         private UserControlAddClass userControlAddClass1;
+        private UserControlClass userControlClass1;
     }
 }

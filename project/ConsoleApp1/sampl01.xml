@@ -4,7 +4,7 @@
     <Id>1</Id>
     <Name>abdo</Name>
     <Email>abdo@gmail.com</Email>
-    <Password>password</Password>
+    <Password>Passw0rd#</Password>
     <Rr>Admin</Rr>
   </user>
   <user>
@@ -16,14 +16,6 @@
     <primaryClass>English</primaryClass>
   </user>
   <user>
-    <Id>3</Id>
-    <Name>mohamed</Name>
-    <Email>mohamed@gmail.com</Email>
-    <Password>password</Password>
-    <Rr>Student</Rr>
-    <primaryClass>English</primaryClass>
-  </user>
-  <user>
     <Id>4</Id>
     <Name>sayed</Name>
     <Email>sayed@gmail.com</Email>
@@ -32,10 +24,27 @@
     <primaryClass>English</primaryClass>
   </user>
   <user>
-    <Id>5</Id>
-    <Name>abdellatief</Name>
-    <Email>abdellatiefHamed00@gmail.com</Email>
-    <Password>Abd0H@med</Password>
+    <Id>6</Id>
+    <Name>mona</Name>
+    <Email>mona@gmail.com</Email>
+    <Password>M0na@12345</Password>
     <Rr>Student</Rr>
+    <primaryClass>Math</primaryClass>
+  </user>
+  <user>
+    <Id>7</Id>
+    <Name>Ayman</Name>
+    <Email>Ayman@gmail.com</Email>
+    <Password>Aym0n@12345</Password>
+    <Rr>Student</Rr>
+    <primaryClass>Math</primaryClass>
+  </user>
+  <user>
+    <Id>8</Id>
+    <Name>abddd</Name>
+    <Email>abddd@gmail.com</Email>
+    <Password>Abd000@111</Password>
+    <Rr>Student</Rr>
+    <primaryClass>English</primaryClass>
   </user>
 </users>
