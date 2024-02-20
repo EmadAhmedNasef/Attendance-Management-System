@@ -64,7 +64,6 @@
             // 
             pictureBoxMin.BackColor = Color.White;
             pictureBoxMin.Cursor = Cursors.Hand;
-            pictureBoxMin.Image = Properties.Resources.Fa_Team_Fontawesome_FontAwesome_Window_Minimize_64;
             pictureBoxMin.Location = new Point(1046, 12);
             pictureBoxMin.Name = "pictureBoxMin";
             pictureBoxMin.Size = new Size(60, 67);
@@ -130,6 +129,7 @@
             textBoxName.Name = "textBoxName";
             textBoxName.Size = new Size(332, 28);
             textBoxName.TabIndex = 1;
+            textBoxName.TextChanged += textBoxName_TextChanged;
             // 
             // labelError
             // 

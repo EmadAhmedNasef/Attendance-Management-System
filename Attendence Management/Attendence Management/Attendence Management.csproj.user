@@ -7,5 +7,8 @@
     <Compile Update="PAL\Forms\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PAL\Forms\FormTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

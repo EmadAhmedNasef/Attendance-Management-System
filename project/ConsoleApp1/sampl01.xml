@@ -22,7 +22,6 @@
     <Password>password</Password>
     <Rr>Student</Rr>
     <primaryClass>English</primaryClass>
-    <SecondryClass>Math</SecondryClass>
   </user>
   <user>
     <Id>4</Id>
@@ -31,15 +30,5 @@
     <Password>password</Password>
     <Rr>Student</Rr>
     <primaryClass>English</primaryClass>
-    <SecondryClass>JavaScript</SecondryClass>
-  </user>
-  <user>
-    <Id>5</Id>
-    <Name>abdellatief hamed</Name>
-    <Email>abdellatiefhamed@gmail.com</Email>
-    <Password>14114</Password>
-    <Rr>Student</Rr>
-    <primaryClass>Math</primaryClass>
-    <SecondryClass>JavaScript</SecondryClass>
   </user>
 </users>

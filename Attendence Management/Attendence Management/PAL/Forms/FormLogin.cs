@@ -159,7 +159,19 @@ namespace Attendence_Management.NewFolder.Forms
                     {
                         // Username and password match, login successful
                         string role = userNode.SelectSingleNode("role").InnerText;
-                        MessageBox.Show($"Login successful! Role: {role}");
+
+                        if (role == "Teacher")
+                        {
+                            this.Hide();
+                            FormTeacher formTeacher = new FormTeacher(enteredUsername, role);
+                            formTeacher.ShowDialog();
+                            return;
+                        }
+                        else
+                        {
+                            // Handle login for other roles (e.g., admin, student)
+                            MessageBox.Show($"Login successful! Role: {role}");
+                        }
                         return;
                     }
                 }
@@ -173,5 +185,9 @@ namespace Attendence_Management.NewFolder.Forms
             }
         }
 
+        private void textBoxName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

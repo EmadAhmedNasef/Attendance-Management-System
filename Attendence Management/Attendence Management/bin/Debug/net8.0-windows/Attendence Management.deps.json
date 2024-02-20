@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Attendence Management/1.0.0": {
         "dependencies": {
-          "ClassLibrary1": "1.0.0",
-          "ConsoleAttendence": "1.0.0"
+          "ClassLibrary1": "1.0.0"
         },
         "runtime": {
           "Attendence Management.dll": {}
@@ -18,14 +17,6 @@
       "ClassLibrary1/1.0.0": {
         "runtime": {
           "ClassLibrary1.dll": {}
-        }
-      },
-      "ConsoleAttendence/1.0.0": {
-        "dependencies": {
-          "ClassLibrary1": "1.0.0"
-        },
-        "runtime": {
-          "ConsoleAttendence.dll": {}
         }
       }
     }
@@ -37,11 +28,6 @@
       "sha512": ""
     },
     "ClassLibrary1/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ConsoleAttendence/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

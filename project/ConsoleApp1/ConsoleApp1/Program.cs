@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml;
 
-namespace ConsoleAttendance
+namespace ConsoleApp1
 {
     public class Class1
     {
