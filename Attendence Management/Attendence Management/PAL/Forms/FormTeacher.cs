@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 using Attendence_Management.PAL.Forms;
+using Attendence_Management.PAL.User_Control;
 
 namespace Attendence_Management.PAL.Forms
 {
@@ -29,7 +31,9 @@ namespace Attendence_Management.PAL.Forms
             labelUsername.Text = Username;
             labelRole.Text = Role;
 
-
+            var userControlAttendence = new UserControlAttendence();
+            userControlAttendence.Dock = DockStyle.Fill;
+            Controls.Add(userControlAttendence);
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -65,11 +69,20 @@ namespace Attendence_Management.PAL.Forms
 
         private void pictureBoxExpand_Click(object sender, EventArgs e)
         {
-            if(panelExpand.Visible)
+            if (panelExpand.Visible)
             {
                 panelExpand.Visible = false;
             }
             else { panelExpand.Visible = true; }
+        }
+
+        private void buttonAttendence_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userControlAttendence1_Load(object sender, EventArgs e)
+        {
         }
     }
 }

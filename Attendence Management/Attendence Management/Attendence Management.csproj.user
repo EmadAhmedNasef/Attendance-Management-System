@@ -10,5 +10,8 @@
     <Compile Update="PAL\Forms\FormTeacher.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PAL\User Control\UserControlAttendence.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

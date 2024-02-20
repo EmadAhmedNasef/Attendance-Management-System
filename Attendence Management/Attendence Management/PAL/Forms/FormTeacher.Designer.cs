@@ -49,6 +49,7 @@
             labelR = new Label();
             labelWelcome = new Label();
             timerDateAndTime = new System.Windows.Forms.Timer(components);
+            userControlAttendence1 = new User_Control.UserControlAttendence();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -68,7 +69,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(258, 720);
+            panel1.Size = new Size(258, 681);
             panel1.TabIndex = 0;
             // 
             // buttonReport
@@ -104,6 +105,7 @@
             buttonAttendence.Text = "    Attendence";
             buttonAttendence.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonAttendence.UseVisualStyleBackColor = false;
+            buttonAttendence.Click += buttonAttendence_Click;
             // 
             // panel2
             // 
@@ -296,12 +298,23 @@
             // 
             timerDateAndTime.Tick += timerDateAndTime_Tick;
             // 
+            // userControlAttendence1
+            // 
+            userControlAttendence1.BackColor = Color.White;
+            userControlAttendence1.Font = new Font("Segoe UI", 9.75F);
+            userControlAttendence1.Location = new Point(258, 171);
+            userControlAttendence1.Name = "userControlAttendence1";
+            userControlAttendence1.Size = new Size(942, 626);
+            userControlAttendence1.TabIndex = 2;
+            userControlAttendence1.Load += userControlAttendence1_Load;
+            // 
             // FormTeacher
             // 
             AutoScaleDimensions = new SizeF(12F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1200, 720);
+            ClientSize = new Size(1200, 681);
+            Controls.Add(userControlAttendence1);
             Controls.Add(panelBack);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 12F, FontStyle.Bold);
@@ -347,5 +360,6 @@
         private Button buttonAttendence;
         private Button buttonReport;
         private System.Windows.Forms.Timer timerDateAndTime;
+        private User_Control.UserControlAttendence userControlAttendence1;
     }
 }
