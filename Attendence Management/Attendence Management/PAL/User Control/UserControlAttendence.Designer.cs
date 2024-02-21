@@ -30,29 +30,33 @@
         {
             tabPageMarkAttendence = new TabPage();
             dataGridViewMarkAttendance = new DataGridView();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
             comboBoxClass = new ComboBox();
             dateTimePickerDate = new DateTimePicker();
             label3 = new Label();
             label1 = new Label();
             label2 = new Label();
             tabControl1 = new TabControl();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
+            pictureBoxPrint = new PictureBox();
             tabPageMarkAttendence.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewMarkAttendance).BeginInit();
             tabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPrint).BeginInit();
             SuspendLayout();
             // 
             // tabPageMarkAttendence
             // 
+            tabPageMarkAttendence.Controls.Add(pictureBoxPrint);
             tabPageMarkAttendence.Controls.Add(dataGridViewMarkAttendance);
             tabPageMarkAttendence.Controls.Add(comboBoxClass);
             tabPageMarkAttendence.Controls.Add(dateTimePickerDate);
             tabPageMarkAttendence.Controls.Add(label3);
             tabPageMarkAttendence.Controls.Add(label1);
             tabPageMarkAttendence.Controls.Add(label2);
+            tabPageMarkAttendence.Cursor = Cursors.Hand;
             tabPageMarkAttendence.Location = new Point(4, 4);
             tabPageMarkAttendence.Name = "tabPageMarkAttendence";
             tabPageMarkAttendence.Padding = new Padding(3);
@@ -69,19 +73,43 @@
             dataGridViewMarkAttendance.BackgroundColor = Color.White;
             dataGridViewMarkAttendance.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewMarkAttendance.Columns.AddRange(new DataGridViewColumn[] { Column2, Column1, Column4, Column3 });
-            dataGridViewMarkAttendance.Location = new Point(117, 127);
+            dataGridViewMarkAttendance.Location = new Point(26, 127);
             dataGridViewMarkAttendance.Name = "dataGridViewMarkAttendance";
             dataGridViewMarkAttendance.RowHeadersWidth = 51;
-            dataGridViewMarkAttendance.Size = new Size(743, 188);
+            dataGridViewMarkAttendance.Size = new Size(902, 188);
             dataGridViewMarkAttendance.TabIndex = 4;
             dataGridViewMarkAttendance.CellContentClick += dataGridViewMarkAttendance_CellContentClick;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Name";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "ID";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Class";
+            Column4.MinimumWidth = 6;
+            Column4.Name = "Column4";
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Status";
+            Column3.MinimumWidth = 6;
+            Column3.Name = "Column3";
             // 
             // comboBoxClass
             // 
             comboBoxClass.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxClass.FlatStyle = FlatStyle.Flat;
             comboBoxClass.FormattingEnabled = true;
-            comboBoxClass.Location = new Point(611, 46);
+            comboBoxClass.Location = new Point(647, 49);
             comboBoxClass.Name = "comboBoxClass";
             comboBoxClass.Size = new Size(249, 29);
             comboBoxClass.TabIndex = 3;
@@ -91,7 +119,7 @@
             // 
             dateTimePickerDate.CustomFormat = "yyyy/MM/dd";
             dateTimePickerDate.Format = DateTimePickerFormat.Custom;
-            dateTimePickerDate.Location = new Point(172, 46);
+            dateTimePickerDate.Location = new Point(114, 52);
             dateTimePickerDate.Name = "dateTimePickerDate";
             dateTimePickerDate.Size = new Size(277, 29);
             dateTimePickerDate.TabIndex = 2;
@@ -101,7 +129,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             label3.ForeColor = Color.FromArgb(68, 3, 125);
-            label3.Location = new Point(546, 46);
+            label3.Location = new Point(571, 49);
             label3.Name = "label3";
             label3.Size = new Size(59, 23);
             label3.TabIndex = 1;
@@ -113,7 +141,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             label1.ForeColor = Color.FromArgb(68, 3, 125);
-            label1.Location = new Point(117, 46);
+            label1.Location = new Point(50, 52);
             label1.Name = "label1";
             label1.Size = new Size(58, 23);
             label1.TabIndex = 1;
@@ -141,29 +169,16 @@
             tabControl1.Size = new Size(942, 501);
             tabControl1.TabIndex = 0;
             // 
-            // Column2
+            // pictureBoxPrint
             // 
-            Column2.HeaderText = "Name";
-            Column2.MinimumWidth = 6;
-            Column2.Name = "Column2";
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "ID";
-            Column1.MinimumWidth = 6;
-            Column1.Name = "Column1";
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "Class";
-            Column4.MinimumWidth = 6;
-            Column4.Name = "Column4";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Status";
-            Column3.MinimumWidth = 6;
-            Column3.Name = "Column3";
+            pictureBoxPrint.Image = Properties.Resources.pngtree_vector_print_icon_png_image_553795;
+            pictureBoxPrint.Location = new Point(433, 39);
+            pictureBoxPrint.Name = "pictureBoxPrint";
+            pictureBoxPrint.Size = new Size(97, 56);
+            pictureBoxPrint.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBoxPrint.TabIndex = 5;
+            pictureBoxPrint.TabStop = false;
+            pictureBoxPrint.Click += pictureBoxPrint_Click;
             // 
             // UserControlAttendence
             // 
@@ -178,6 +193,7 @@
             tabPageMarkAttendence.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewMarkAttendance).EndInit();
             tabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPrint).EndInit();
             ResumeLayout(false);
         }
 
@@ -195,5 +211,6 @@
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column4;
         private DataGridViewTextBoxColumn Column3;
+        private PictureBox pictureBoxPrint;
     }
 }

@@ -10,9 +10,8 @@
 
 namespace Attendence_Management.Properties {
     using System;
-    using System.Drawing;
-
-
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -32,9 +31,7 @@ namespace Attendence_Management.Properties {
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-
-        public static Image Fa_Team_Fontawesome_FontAwesome_Window_Minimize_64 { get; internal set; }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -129,6 +126,16 @@ namespace Attendence_Management.Properties {
         internal static System.Drawing.Bitmap minus_button {
             get {
                 object obj = ResourceManager.GetObject("minus-button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_vector_print_icon_png_image_553795 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-vector-print-icon-png-image_553795", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

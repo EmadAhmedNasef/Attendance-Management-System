@@ -124,9 +124,6 @@
   <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="minimize-sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimize-sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Fa_Team_Fontawesome_FontAwesome_Window_Minimize_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fa-Team-Fontawesome-FontAwesome-Window-Minimize.64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -141,6 +138,9 @@
   </data>
   <data name="Fa-Team-Fontawesome-FontAwesome-Window-Minimize.64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fa-Team-Fontawesome-FontAwesome-Window-Minimize.641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize-sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize-sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="students2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\students2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,7 +160,7 @@
   <data name="Tatice_Cristal_Intense_Exclamation_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tatice-Cristal-Intense-Exclamation.48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fa-Team-Fontawesome-FontAwesome-Window-Minimize.64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fa-Team-Fontawesome-FontAwesome-Window-Minimize.641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngtree-vector-print-icon-png-image_553795" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-vector-print-icon-png-image_553795.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
