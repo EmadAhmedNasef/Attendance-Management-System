@@ -23,7 +23,8 @@ namespace Attendence_Management.PAL.User_Control
 
         private void LoadClassNames()
         {
-            string xmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\records.xml";
+            string xmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\record2.xml";
+            HashSet<string> classNames = new HashSet<string>();
 
             try
             {
@@ -36,6 +37,12 @@ namespace Attendence_Management.PAL.User_Control
                     foreach (XmlNode classNode in classNodes)
                     {
                         string className = classNode.Attributes["name"].Value;
+                        classNames.Add(className);
+                    }
+
+                    comboBoxClass.Items.Clear();
+                    foreach (string className in classNames)
+                    {
                         comboBoxClass.Items.Add(className);
                     }
                 }
@@ -46,6 +53,7 @@ namespace Attendence_Management.PAL.User_Control
             }
         }
 
+
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -54,7 +62,7 @@ namespace Attendence_Management.PAL.User_Control
 
         private void comboBoxClass_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string xmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\records.xml";
+            string xmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\record2.xml";
 
             try
             {
@@ -72,16 +80,15 @@ namespace Attendence_Management.PAL.User_Control
 
                     foreach (XmlNode record in records)
                     {
-                        XmlNode classNode = record.SelectSingleNode(".//class");
-                        string className = classNode.Attributes["name"].Value;
-
-                        if (className == comboBoxClass.SelectedItem.ToString())
+                        XmlNode dateNode = record.SelectSingleNode(".//date");
+                        DateTime recordDate;
+                        if (DateTime.TryParse(dateNode.InnerText, out recordDate) && recordDate.Date == dateTimePickerDate.Value.Date)
                         {
-                            XmlNode dateNode = record.SelectSingleNode(".//date");
-                            DateTime recordDate;
-                            if (DateTime.TryParse(dateNode.InnerText, out recordDate))
+                            XmlNodeList classNodes = record.SelectNodes(".//class");
+                            foreach (XmlNode classNode in classNodes)
                             {
-                                if (recordDate.Date == dateTimePickerDate.Value.Date)
+                                string className = classNode.Attributes["name"].Value;
+                                if (className == comboBoxClass.SelectedItem.ToString())
                                 {
                                     if (!checkboxColumnExists)
                                     {
@@ -100,10 +107,9 @@ namespace Attendence_Management.PAL.User_Control
                                         string studentID = studentNode.SelectSingleNode("studentID").InnerText;
                                         string studentName = studentNode.SelectSingleNode("studentname").InnerText;
                                         string status = studentNode.SelectSingleNode("status").InnerText;
-                                        int rowIndex = dataGridViewMarkAttendance.Rows.Add(studentName, studentID, className , status);
+                                        int rowIndex = dataGridViewMarkAttendance.Rows.Add(studentName, studentID, className, status);
                                         dataGridViewMarkAttendance.Rows[rowIndex].Cells["AttendanceColumn"].Value = (studentNode.SelectSingleNode("status").InnerText == "Present");
                                     }
-                                    break;
                                 }
                             }
                         }
@@ -114,7 +120,14 @@ namespace Attendence_Management.PAL.User_Control
             {
                 MessageBox.Show("Error loading XML data: " + ex.Message);
             }
+
         }
+
+
+
+
+
+
 
 
 
@@ -125,34 +138,35 @@ namespace Attendence_Management.PAL.User_Control
                 DataGridViewCheckBoxCell checkBoxCell = (DataGridViewCheckBoxCell)dataGridViewMarkAttendance.Rows[e.RowIndex].Cells["AttendanceColumn"];
                 bool isChecked = (bool)checkBoxCell.EditedFormattedValue;
                 string studentID = dataGridViewMarkAttendance.Rows[e.RowIndex].Cells["Column1"].Value.ToString();
+                string className = comboBoxClass.SelectedItem.ToString(); // Get the selected class name
+                DateTime selectedDate = dateTimePickerDate.Value.Date; // Get the selected date
 
-                XmlDocument xmlDocument = new XmlDocument();
-                xmlDocument.Load(@"C:\Users\Nasef\Desktop\Project\XML\records.xml");
-
-                XmlNodeList records = xmlDocument.SelectNodes("//record");
-                foreach (XmlNode record in records)
+                try
                 {
-                    XmlNode classNode = record.SelectSingleNode(".//class");
-                    string className = classNode.Attributes["name"].Value;
+                    XmlDocument xmlDocument = new XmlDocument();
+                    xmlDocument.Load(@"C:\Users\Nasef\Desktop\Project\XML\record2.xml");
 
-                    if (className == comboBoxClass.SelectedItem.ToString())
+                    // Update only the student node with the matching student ID, class name, and date
+                    XmlNode studentNode = xmlDocument.SelectSingleNode($"//record[date='{selectedDate:yyyy-MM-dd}']/class[@name='{className}']/Students/Student[studentID='{studentID}']");
+                    if (studentNode != null)
                     {
-                        XmlNodeList studentNodes = classNode.SelectNodes(".//Student");
-                        foreach (XmlNode studentNode in studentNodes)
-                        {
-                            if (studentNode.SelectSingleNode("studentID").InnerText == studentID)
-                            {
-                                studentNode.SelectSingleNode("status").InnerText = isChecked ? "Present" : "Absent";
-                                break;
-                            }
-                        }
-                        break;
+                        studentNode.SelectSingleNode("status").InnerText = isChecked ? "Present" : "Absent";
+                        xmlDocument.Save(@"C:\Users\Nasef\Desktop\Project\XML\record2.xml");
                     }
                 }
-
-                xmlDocument.Save(@"C:\Users\Nasef\Desktop\Project\XML\records.xml");
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error updating XML data: " + ex.Message);
+                }
             }
         }
+
+
+
+
+
+
+
 
 
 

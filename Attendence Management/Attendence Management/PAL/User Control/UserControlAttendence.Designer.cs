@@ -123,15 +123,7 @@
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
-            label3.ForeColor = Color.FromArgb(68, 3, 125);
-            label3.Location = new Point(571, 49);
-            label3.Name = "label3";
-            label3.Size = new Size(59, 23);
-            label3.TabIndex = 1;
-            label3.Text = "Class: ";
-            label3.Click += label3_Click;
+
             // 
             // label1
             // 

@@ -32,7 +32,7 @@
         <Student>
           <studentname>abdellatief hamed</studentname>
           <studentID>5</studentID>
-          <status>present</status>
+          <status>Present</status>
         </Student>
       </Students>
     </class>
