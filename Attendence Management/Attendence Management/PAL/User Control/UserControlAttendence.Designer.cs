@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             tabPageMarkAttendence = new TabPage();
+            pictureBoxPrint = new PictureBox();
             dataGridViewMarkAttendance = new DataGridView();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
             comboBoxClass = new ComboBox();
             dateTimePickerDate = new DateTimePicker();
             label3 = new Label();
             label1 = new Label();
             label2 = new Label();
             tabControl1 = new TabControl();
-            pictureBoxPrint = new PictureBox();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
             tabPageMarkAttendence.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPrint).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewMarkAttendance).BeginInit();
             tabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPrint).BeginInit();
             SuspendLayout();
             // 
             // tabPageMarkAttendence
@@ -65,6 +65,17 @@
             tabPageMarkAttendence.Text = "MarkAttendence";
             tabPageMarkAttendence.UseVisualStyleBackColor = true;
             // 
+            // pictureBoxPrint
+            // 
+            pictureBoxPrint.Image = Properties.Resources.pngtree_vector_print_icon_png_image_553795;
+            pictureBoxPrint.Location = new Point(433, 39);
+            pictureBoxPrint.Name = "pictureBoxPrint";
+            pictureBoxPrint.Size = new Size(97, 56);
+            pictureBoxPrint.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBoxPrint.TabIndex = 5;
+            pictureBoxPrint.TabStop = false;
+            pictureBoxPrint.Click += pictureBoxPrint_Click;
+            // 
             // dataGridViewMarkAttendance
             // 
             dataGridViewMarkAttendance.AllowUserToAddRows = false;
@@ -79,30 +90,6 @@
             dataGridViewMarkAttendance.Size = new Size(902, 188);
             dataGridViewMarkAttendance.TabIndex = 4;
             dataGridViewMarkAttendance.CellContentClick += dataGridViewMarkAttendance_CellContentClick;
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Name";
-            Column2.MinimumWidth = 6;
-            Column2.Name = "Column2";
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "ID";
-            Column1.MinimumWidth = 6;
-            Column1.Name = "Column1";
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "Class";
-            Column4.MinimumWidth = 6;
-            Column4.Name = "Column4";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Status";
-            Column3.MinimumWidth = 6;
-            Column3.Name = "Column3";
             // 
             // comboBoxClass
             // 
@@ -169,16 +156,29 @@
             tabControl1.Size = new Size(942, 501);
             tabControl1.TabIndex = 0;
             // 
-            // pictureBoxPrint
+            // Column2
             // 
-            pictureBoxPrint.Image = Properties.Resources.pngtree_vector_print_icon_png_image_553795;
-            pictureBoxPrint.Location = new Point(433, 39);
-            pictureBoxPrint.Name = "pictureBoxPrint";
-            pictureBoxPrint.Size = new Size(97, 56);
-            pictureBoxPrint.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBoxPrint.TabIndex = 5;
-            pictureBoxPrint.TabStop = false;
-            pictureBoxPrint.Click += pictureBoxPrint_Click;
+            Column2.HeaderText = "Name";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "ID";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Class";
+            Column4.MinimumWidth = 6;
+            Column4.Name = "Column4";
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Status";
+            Column3.MinimumWidth = 6;
+            Column3.Name = "Column3";
             // 
             // UserControlAttendence
             // 
@@ -191,9 +191,9 @@
             Size = new Size(942, 501);
             tabPageMarkAttendence.ResumeLayout(false);
             tabPageMarkAttendence.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPrint).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewMarkAttendance).EndInit();
             tabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPrint).EndInit();
             ResumeLayout(false);
         }
 
@@ -207,10 +207,11 @@
         private Label label3;
         private ComboBox comboBoxClass;
         private DataGridView dataGridViewMarkAttendance;
+        private PictureBox pictureBoxPrint;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column4;
         private DataGridViewTextBoxColumn Column3;
-        private PictureBox pictureBoxPrint;
+        private DataGridViewTextBoxColumn Attendence;
     }
 }

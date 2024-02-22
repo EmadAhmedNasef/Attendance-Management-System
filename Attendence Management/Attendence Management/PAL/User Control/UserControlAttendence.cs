@@ -53,8 +53,6 @@ namespace Attendence_Management.PAL.User_Control
 
 
 
-
-
         private void comboBoxClass_SelectedIndexChanged(object sender, EventArgs e)
         {
             string xmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\records.xml";
@@ -68,6 +66,11 @@ namespace Attendence_Management.PAL.User_Control
                 if (records != null)
                 {
                     dataGridViewMarkAttendance.Rows.Clear();
+
+                    // Check if the checkbox column already exists
+                    DataGridViewCheckBoxColumn checkBoxColumn = (DataGridViewCheckBoxColumn)dataGridViewMarkAttendance.Columns["AttendanceColumn"];
+                    bool checkboxColumnExists = checkBoxColumn != null;
+
                     foreach (XmlNode record in records)
                     {
                         XmlNode classNode = record.SelectSingleNode(".//class");
@@ -79,17 +82,27 @@ namespace Attendence_Management.PAL.User_Control
                             DateTime recordDate;
                             if (DateTime.TryParse(dateNode.InnerText, out recordDate))
                             {
-                                // Assuming you have a date picker control named 'dateTimePicker1'
                                 if (recordDate.Date == dateTimePickerDate.Value.Date)
                                 {
+                                    if (!checkboxColumnExists)
+                                    {
+                                        // Add checkbox column only if it doesn't exist
+                                        checkBoxColumn = new DataGridViewCheckBoxColumn();
+                                        checkBoxColumn.HeaderText = "Attendance";
+                                        checkBoxColumn.Name = "AttendanceColumn";
+                                        dataGridViewMarkAttendance.Columns.Add(checkBoxColumn);
+                                        checkboxColumnExists = true; // Set the flag to true
+                                    }
+
                                     XmlNodeList studentNodes = classNode.SelectNodes(".//Student");
+
                                     foreach (XmlNode studentNode in studentNodes)
                                     {
                                         string studentID = studentNode.SelectSingleNode("studentID").InnerText;
                                         string studentName = studentNode.SelectSingleNode("studentname").InnerText;
                                         string status = studentNode.SelectSingleNode("status").InnerText;
-
-                                        dataGridViewMarkAttendance.Rows.Add(studentName, studentID, className, status);
+                                        int rowIndex = dataGridViewMarkAttendance.Rows.Add(studentName, studentID, className , status);
+                                        dataGridViewMarkAttendance.Rows[rowIndex].Cells["AttendanceColumn"].Value = (studentNode.SelectSingleNode("status").InnerText == "Present");
                                     }
                                     break;
                                 }
@@ -108,8 +121,47 @@ namespace Attendence_Management.PAL.User_Control
 
         private void dataGridViewMarkAttendance_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0 && e.ColumnIndex == dataGridViewMarkAttendance.Columns["AttendanceColumn"].Index)
+            {
+                DataGridViewCheckBoxCell checkBoxCell = (DataGridViewCheckBoxCell)dataGridViewMarkAttendance.Rows[e.RowIndex].Cells["AttendanceColumn"];
+                bool isChecked = (bool)checkBoxCell.EditedFormattedValue;
+                string studentID = dataGridViewMarkAttendance.Rows[e.RowIndex].Cells["Column1"].Value.ToString();
 
+                XmlDocument xmlDocument = new XmlDocument();
+                xmlDocument.Load(@"C:\Users\Nasef\Desktop\Project\XML\records.xml");
+
+                XmlNodeList records = xmlDocument.SelectNodes("//record");
+                foreach (XmlNode record in records)
+                {
+                    XmlNode classNode = record.SelectSingleNode(".//class");
+                    string className = classNode.Attributes["name"].Value;
+
+                    if (className == comboBoxClass.SelectedItem.ToString())
+                    {
+                        XmlNodeList studentNodes = classNode.SelectNodes(".//Student");
+                        foreach (XmlNode studentNode in studentNodes)
+                        {
+                            if (studentNode.SelectSingleNode("studentID").InnerText == studentID)
+                            {
+                                studentNode.SelectSingleNode("status").InnerText = isChecked ? "Present" : "Absent";
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                }
+
+                xmlDocument.Save(@"C:\Users\Nasef\Desktop\Project\XML\records.xml");
+            }
         }
+
+
+
+
+
+
+
+
 
         private void ExportToHtml(DataGridView dataGridView, string htmlFilePath)
         {
