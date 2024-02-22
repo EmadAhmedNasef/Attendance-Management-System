@@ -41,3 +41,4 @@ C:\Users\Nasef\Desktop\Project\Attendence Management\Attendence Management\obj\D
 C:\Users\Nasef\Desktop\Project\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence Management.csproj.CopyComplete
 C:\Users\Nasef\Desktop\Project\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence_Management.PAL.Forms.FormTeacher.resources
 C:\Users\Nasef\Desktop\Project\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence_Management.PAL.User_Control.UserControlAttendence.resources
+C:\Users\Nasef\Desktop\Project\Attendence Management\Attendence Management\obj\Debug\net8.0-windows\Attendence_Management.PAL.User_Control.UserControlReports.resources

@@ -76,13 +76,30 @@ namespace Attendence_Management.PAL.Forms
             else { panelExpand.Visible = true; }
         }
 
-        private void buttonAttendence_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void userControlAttendence1_Load(object sender, EventArgs e)
         {
+
         }
+        private void userControlReports2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
+        private void buttonAttendence_Click(object sender, EventArgs e)
+        {
+            userControlAttendence1.Visible = true;
+            userControlReports2.Visible = false;
+        }
+
+        private void buttonReport_Click(object sender, EventArgs e)
+        {
+            userControlAttendence1.Visible = false;
+            userControlReports2.Visible = true;
+        }
+
+
     }
 }

@@ -50,6 +50,7 @@
             labelWelcome = new Label();
             timerDateAndTime = new System.Windows.Forms.Timer(components);
             userControlAttendence1 = new User_Control.UserControlAttendence();
+            userControlReports2 = new User_Control.UserControlReports();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -88,6 +89,7 @@
             buttonReport.Text = "    Reports";
             buttonReport.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonReport.UseVisualStyleBackColor = false;
+            buttonReport.Click += buttonReport_Click;
             // 
             // buttonAttendence
             // 
@@ -301,12 +303,24 @@
             // userControlAttendence1
             // 
             userControlAttendence1.BackColor = Color.White;
+            userControlAttendence1.Dock = DockStyle.Fill;
             userControlAttendence1.Font = new Font("Segoe UI", 9.75F);
-            userControlAttendence1.Location = new Point(258, 171);
+            userControlAttendence1.Location = new Point(258, 165);
             userControlAttendence1.Name = "userControlAttendence1";
-            userControlAttendence1.Size = new Size(942, 626);
+            userControlAttendence1.Size = new Size(942, 516);
             userControlAttendence1.TabIndex = 2;
             userControlAttendence1.Load += userControlAttendence1_Load;
+            // 
+            // userControlReports2
+            // 
+            userControlReports2.BackColor = Color.White;
+            userControlReports2.Dock = DockStyle.Fill;
+            userControlReports2.Font = new Font("Segoe UI", 9.75F);
+            userControlReports2.Location = new Point(258, 165);
+            userControlReports2.Name = "userControlReports2";
+            userControlReports2.Size = new Size(942, 516);
+            userControlReports2.TabIndex = 3;
+            userControlReports2.Load += userControlReports2_Load;
             // 
             // FormTeacher
             // 
@@ -314,6 +328,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1200, 681);
+            Controls.Add(userControlReports2);
             Controls.Add(userControlAttendence1);
             Controls.Add(panelBack);
             Controls.Add(panel1);
@@ -361,5 +376,7 @@
         private Button buttonReport;
         private System.Windows.Forms.Timer timerDateAndTime;
         private User_Control.UserControlAttendence userControlAttendence1;
+        private User_Control.UserControlReports userControlReports1;
+        private User_Control.UserControlReports userControlReports2;
     }
 }

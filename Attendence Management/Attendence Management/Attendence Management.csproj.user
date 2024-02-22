@@ -13,5 +13,8 @@
     <Compile Update="PAL\User Control\UserControlAttendence.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="PAL\User Control\UserControlReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -11,12 +11,12 @@
         <Student>
           <studentname>sayed</studentname>
           <studentID>4</studentID>
-          <status>Present</status>
+          <status>Absent</status>
         </Student>
         <Student>
           <studentname>mohamed </studentname>
           <studentID>5</studentID>
-          <status>Present</status>
+          <status>Absent</status>
         </Student>
       </Students>
     </class>
