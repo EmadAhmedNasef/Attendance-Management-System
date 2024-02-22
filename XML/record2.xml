@@ -10,12 +10,12 @@
         <Student>
           <studentname>sayed</studentname>
           <studentID>4</studentID>
-          <status>Present</status>
+          <status>Absent</status>
         </Student>
         <Student>
           <studentname>mohamed </studentname>
           <studentID>3</studentID>
-          <status>Present</status>
+          <status>Absent</status>
         </Student>
       </Students>
     </class>
@@ -46,7 +46,7 @@
         <Student>
           <studentname>abdellatief hamed</studentname>
           <studentID>5</studentID>
-          <status>Present</status>
+          <status>Absent</status>
         </Student>
       </Students>
     </class>
@@ -59,7 +59,7 @@
         <Student>
           <studentname>abdellatief hamed</studentname>
           <studentID>5</studentID>
-          <status>Present</status>
+          <status>Absent</status>
         </Student>
       </Students>
     </class>
@@ -75,12 +75,12 @@
         <Student>
           <studentname>sayed</studentname>
           <studentID>4</studentID>
-          <status>Absent</status>
+          <status>Present</status>
         </Student>
         <Student>
           <studentname>mohamed </studentname>
           <studentID>3</studentID>
-          <status>Absent</status>
+          <status>Present</status>
         </Student>
       </Students>
     </class>
@@ -111,7 +111,7 @@
         <Student>
           <studentname>abdellatief hamed</studentname>
           <studentID>5</studentID>
-          <status>Absent</status>
+          <status>Present</status>
         </Student>
       </Students>
     </class>
