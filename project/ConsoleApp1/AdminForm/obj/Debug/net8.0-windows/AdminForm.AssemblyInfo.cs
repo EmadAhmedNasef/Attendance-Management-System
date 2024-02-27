@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdminForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76e128431e5ce1e191348152bb6621b91714f41c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b106fde83a2d9abc1b616bf313d8915dc8916813")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdminForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdminForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

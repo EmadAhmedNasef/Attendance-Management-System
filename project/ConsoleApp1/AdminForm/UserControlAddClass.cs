@@ -1,6 +1,8 @@
 ﻿using ClassLibrary1;
 using System.Data;
 using System.Text.RegularExpressions;
+using OfficeOpenXml;
+
 
 namespace AdminForm
 {
@@ -56,8 +58,9 @@ namespace AdminForm
         }
         private bool matchroleandclass()
         {
-            if (comboBoxRole.SelectedIndex != -1
-                && comboBoxClass.SelectedIndex != -1)
+
+            if ((comboBoxRole.SelectedIndex != -1 && comboBoxClass.SelectedIndex != -1)
+               || comboBoxRole.SelectedIndex == 2)
             {
                 return true;
             }
@@ -83,6 +86,9 @@ namespace AdminForm
                 textBoxPassword.Text = "";
                 comboBoxRole.SelectedIndex = -1;
                 comboBoxClass.SelectedIndex = -1;
+                label6.Show();
+                comboBoxClass.Show();
+                panel5.Show();
             }
 
 
@@ -90,9 +96,28 @@ namespace AdminForm
         // combo box operations
         private void comboBoxRole_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBoxRole.SelectedIndex == 0) { role = role.Student; }
-            if (comboBoxRole.SelectedIndex == 1) { role = role.Teacher; }
-            if (comboBoxRole.SelectedIndex == 2) { role = role.Admin; }
+            if (comboBoxRole.SelectedIndex == 0)
+            {
+                role = role.Student;
+                label6.Show();
+                comboBoxClass.Show();
+                panel5.Show();
+            }
+            if (comboBoxRole.SelectedIndex == 1)
+            {
+                role = role.Teacher;
+                label6.Show();
+                comboBoxClass.Show();
+                panel5.Show();
+            }
+            if (comboBoxRole.SelectedIndex == 2)
+            {
+                role = role.Admin;
+                label6.Hide();
+                comboBoxClass.Hide();
+                panel5.Hide();
+
+            }
         }
 
         private void comboBoxClass_SelectedIndexChanged(object sender, EventArgs e)
@@ -180,7 +205,7 @@ namespace AdminForm
                     panel7.Show();
                 }
                 role = (role)Enum.Parse(typeof(role), selectedRow.Cells[5].Value.ToString());
-
+                cls = (classes)Enum.Parse(typeof(classes), selectedRow.Cells[4].Value.ToString());
             }
         }
 
@@ -232,13 +257,13 @@ namespace AdminForm
         private bool lastofKind(role rr, int ind)
         {
             List<user> li = xmloperators.DeserializeXmlFileToList();
-            if (li[ind].Rr == role.Student || operations.lastuser(li[ind].Rr) || li[ind].Rr == rr)
+            if (li[ind].Rr == role.Student || (li[ind].Rr == rr && li[ind].primaryClass == cls) || operations.lastuserofkind(ind))
             {
                 return true;
             }
             else
             {
-                DialogResult dialogResult = MessageBox.Show("We can't Edit the role for this user currently", "warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                DialogResult dialogResult = MessageBox.Show("We can't Edit the role beacause It's the last of kind", "warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
         }
@@ -299,14 +324,14 @@ namespace AdminForm
 
         private void comboBoxRole1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBoxRole1.SelectedIndex == 0) 
-            { 
+            if (comboBoxRole1.SelectedIndex == 0)
+            {
                 role = role.Student;
                 label11.Show();
                 comboBoxClass1.Show();
                 panel7.Show();
             }
-            if (comboBoxRole1.SelectedIndex == 1) 
+            if (comboBoxRole1.SelectedIndex == 1)
             {
                 role = role.Teacher;
                 label11.Show();
@@ -328,6 +353,27 @@ namespace AdminForm
             if (comboBoxClass1.SelectedIndex == 1)
             {
                 cls = classes.English;
+            }
+        }
+
+        private void buttonExcel_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult1 = MessageBox.Show("You sure you want to generate a report", "Excel", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if(dialogResult1 == DialogResult.Yes)
+            {
+                try
+                {
+                    List<user> li11 = xmloperators.DeserializeXmlFileToList();
+
+                    operations.writeinexcel(li11);
+                }
+                catch 
+                {
+                    DialogResult dialogResult11 = MessageBox.Show("We are sorry something went wrong", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+
+
             }
         }
     }

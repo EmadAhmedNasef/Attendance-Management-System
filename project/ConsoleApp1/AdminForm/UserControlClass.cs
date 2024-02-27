@@ -80,5 +80,22 @@ namespace AdminForm
             cls = classes.Math;
             showusers(cls);
         }
+
+        private void buttonExcel_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult1 = MessageBox.Show("You sure you want to generate a report", "Excel", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (dialogResult1 == DialogResult.Yes)
+            {
+                try
+                {
+                    operations.writeinexcel(search, comboBoxClass.SelectedItem.ToString(), "class");
+                }
+                catch
+                {
+                    DialogResult dialogResult11 = MessageBox.Show("We are sorry something went wrong", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+            }
+        }
     }
 }

@@ -50,6 +50,7 @@
             label2 = new Label();
             label1 = new Label();
             tabPageShow = new TabPage();
+            buttonExcel = new Button();
             labelNumberofUsers = new Label();
             label9 = new Label();
             dataGridViewUsers = new DataGridView();
@@ -305,6 +306,7 @@
             // 
             // tabPageShow
             // 
+            tabPageShow.Controls.Add(buttonExcel);
             tabPageShow.Controls.Add(labelNumberofUsers);
             tabPageShow.Controls.Add(label9);
             tabPageShow.Controls.Add(dataGridViewUsers);
@@ -316,12 +318,27 @@
             tabPageShow.Location = new Point(4, 4);
             tabPageShow.Name = "tabPageShow";
             tabPageShow.Padding = new Padding(3);
-            tabPageShow.Size = new Size(934, 473);
+            tabPageShow.Size = new Size(934, 472);
             tabPageShow.TabIndex = 1;
             tabPageShow.Text = "Show Users";
             tabPageShow.UseVisualStyleBackColor = true;
             tabPageShow.Enter += tabPageShow_Enter;
             tabPageShow.Leave += tabPageShow_Leave;
+            // 
+            // buttonExcel
+            // 
+            buttonExcel.BackColor = Color.FromArgb(255, 128, 0);
+            buttonExcel.FlatAppearance.BorderSize = 0;
+            buttonExcel.FlatStyle = FlatStyle.Flat;
+            buttonExcel.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
+            buttonExcel.ForeColor = Color.White;
+            buttonExcel.Location = new Point(31, 434);
+            buttonExcel.Name = "buttonExcel";
+            buttonExcel.Size = new Size(165, 40);
+            buttonExcel.TabIndex = 7;
+            buttonExcel.Text = "load to excel";
+            buttonExcel.UseVisualStyleBackColor = false;
+            buttonExcel.Click += buttonExcel_Click;
             // 
             // labelNumberofUsers
             // 
@@ -746,5 +763,6 @@
         private DataGridViewTextBoxColumn Password;
         private DataGridViewTextBoxColumn Class;
         private DataGridViewTextBoxColumn Column1;
+        private Button buttonExcel;
     }
 }

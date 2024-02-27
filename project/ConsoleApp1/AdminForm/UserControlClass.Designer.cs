@@ -48,6 +48,7 @@
             label7 = new Label();
             label8 = new Label();
             toolTip1 = new ToolTip(components);
+            buttonExcel = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewUsers).BeginInit();
@@ -66,6 +67,7 @@
             // 
             // tabPage1
             // 
+            tabPage1.Controls.Add(buttonExcel);
             tabPage1.Controls.Add(comboBoxClass);
             tabPage1.Controls.Add(panel1);
             tabPage1.Controls.Add(label1);
@@ -243,13 +245,27 @@
             label8.TabIndex = 17;
             label8.Text = "Show Classes : ";
             // 
+            // buttonExcel
+            // 
+            buttonExcel.BackColor = Color.FromArgb(255, 128, 0);
+            buttonExcel.FlatAppearance.BorderSize = 0;
+            buttonExcel.FlatStyle = FlatStyle.Flat;
+            buttonExcel.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
+            buttonExcel.ForeColor = Color.White;
+            buttonExcel.Location = new Point(29, 423);
+            buttonExcel.Name = "buttonExcel";
+            buttonExcel.Size = new Size(165, 40);
+            buttonExcel.TabIndex = 18;
+            buttonExcel.Text = "load to excel";
+            buttonExcel.UseVisualStyleBackColor = false;
+            buttonExcel.Click += buttonExcel_Click;
+            // 
             // UserControlClass
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(tabControl1);
-
             Size = new Size(942, 501);
             Load += UserControlClass_Load;
             tabControl1.ResumeLayout(false);
@@ -280,5 +296,6 @@
         private Label label7;
         private Label label8;
         private ToolTip toolTip1;
+        private Button buttonExcel;
     }
 }

@@ -105,7 +105,7 @@ namespace ClassLibrary1
         public bool ShouldSerializeprimaryClass()
         {
             // Serialize only if Property is not equal to default value
-            return prim != classes.not ;
+            return prim != classes.not && rr != role.Admin;
         }
         //public bool ShouldSerializeSecondryClass()
         //{
