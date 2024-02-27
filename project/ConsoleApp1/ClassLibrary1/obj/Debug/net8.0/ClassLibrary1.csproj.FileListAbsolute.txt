@@ -10,6 +10,7 @@ D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibr
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+<<<<<<< HEAD
 D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
 D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
 D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
@@ -29,3 +30,5 @@ C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.
 C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
 C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
 C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+=======
+>>>>>>> origin/abdellatief

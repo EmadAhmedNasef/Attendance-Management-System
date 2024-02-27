@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {}
   },
   "projects": {
@@ -19,6 +20,22 @@
         "configFilePaths": [
           "C:\\Users\\Nasef\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+    "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {}
+  },
+  "projects": {
+    "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "packagesPath": "C:\\Users\\DATA\\.nuget\\packages\\",
+        "outputPath": "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DATA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> origin/abdellatief
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

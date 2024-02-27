@@ -27,12 +27,17 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Nasef\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\DATA\\.nuget\\packages\\": {}
+>>>>>>> origin/abdellatief
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
       "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
@@ -45,6 +50,16 @@
       "configFilePaths": [
         "C:\\Users\\Nasef\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+      "projectUniqueName": "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\DATA\\.nuget\\packages\\",
+      "outputPath": "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DATA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> origin/abdellatief
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,8 +73,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
               "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj"
+=======
+            "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj"
+>>>>>>> origin/abdellatief
             }
           }
         }

@@ -9,7 +9,11 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace ClassLibrary1
 {
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> origin/abdellatief
     public enum role
     {
         Admin = 0, Teacher = 1, Student = 2
@@ -17,6 +21,7 @@ namespace ClassLibrary1
     }
     public enum classes
     {
+<<<<<<< HEAD
         not = 0, JavaScript = 1, English = 2, Math = 3
     }
 
@@ -26,6 +31,17 @@ namespace ClassLibrary1
 
     [XmlRoot("user")]
     public class user : ICloneable, IComparable<user>
+=======
+       not = 0 , JavaScript = 1, English = 2, Math = 3
+    }
+
+
+   
+    [Serializable]
+    
+    [XmlRoot("user")]
+    public class user
+>>>>>>> origin/abdellatief
     {
 
 
@@ -34,12 +50,19 @@ namespace ClassLibrary1
         private List<classes> Class;
         private classes prim;
         private classes second;
+<<<<<<< HEAD
         public string Status { get; set; }
 
 
         public int Id { get; set; }
         public string Name
         {
+=======
+
+
+        public int Id { get; set; }
+        public string Name {
+>>>>>>> origin/abdellatief
             get { return _name; }
             set { _name = value; }
         }
@@ -55,12 +78,21 @@ namespace ClassLibrary1
         //    set { Class = value; }
         //}
 
+<<<<<<< HEAD
 
 
 
         public classes primaryClass { get => prim; set => prim = (classes)value; }
 
         public classes SecondryClass { get => second; set => second = (classes)value; }
+=======
+        
+
+        
+        public classes primaryClass { get => prim; set => prim = (classes)value; }
+        
+        //public classes SecondryClass { get => second; set => second = (classes)value; }
+>>>>>>> origin/abdellatief
 
         public override string ToString()
         {
@@ -73,12 +105,21 @@ namespace ClassLibrary1
             {
                 return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , class = {primaryClass}";
             }
+<<<<<<< HEAD
             return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , primaryclass = {primaryClass} , secondryclass = {SecondryClass}";
         }
 
         public static bool operator ==(user left, user right)
         {
             return left.Id == right.Id;
+=======
+            return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , class = {primaryClass} ";
+        }
+
+        public static bool operator == (user left, user right)
+        {
+            return left.Id == right.Id ;
+>>>>>>> origin/abdellatief
         }
         public static bool operator !=(user left, user right)
         {
@@ -88,6 +129,7 @@ namespace ClassLibrary1
 
         public override bool Equals(object? obj)
         {
+<<<<<<< HEAD
             if (obj is user user)
             {
                 return (this.Id == user.Id);
@@ -123,4 +165,33 @@ namespace ClassLibrary1
     }
 
 
+=======
+            if (obj == null)
+            {
+                return false;
+            }
+            if(obj.GetType() != typeof(user)) {
+                return false;
+            }
+            user user = (user)obj;
+            if (user == null)
+            {
+                return false;
+            }
+            return user.Id==Id;
+        }
+
+
+        public bool ShouldSerializeprimaryClass()
+        {
+            // Serialize only if Property is not equal to default value
+            return prim != classes.not && rr != role.Admin;
+        }
+        //public bool ShouldSerializeSecondryClass()
+        //{
+        //    // Serialize only if Property is not equal to default value
+        //    return second != classes.not;
+        //}
+    }
+>>>>>>> origin/abdellatief
 }

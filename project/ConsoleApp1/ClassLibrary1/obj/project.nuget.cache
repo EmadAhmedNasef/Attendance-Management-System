@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ir7aa+3MYp5TMmUhlkRZ6OWiTqs9duYFIiMHd+8qRECrQunjB1oNVpdSrY/+JN0ZIt7tWdL6gG1PxrCoq2GgKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+=======
+  "dgSpecHash": "Fhz0boJu+nXGmCLNXjxVRkSGaLVi/yodY5Kuu62zc1/0PvVg2ep1UAAzdWZPUkjUpzmbnTwOvDQxfIkihWyPAQ==",
+  "success": true,
+  "projectFilePath": "D:\\iti\\xml\\attendance\\Attendance-Management-System\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+>>>>>>> origin/abdellatief
   "expectedPackageFiles": [],
   "logs": []
 }

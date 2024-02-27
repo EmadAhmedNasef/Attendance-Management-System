@@ -17,6 +17,7 @@ D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ConsoleAp
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+<<<<<<< HEAD
 D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\project\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
 D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\project\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
 D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\Attendance-Management-System-abdellatief\project\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
@@ -54,3 +55,5 @@ C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\
 C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+=======
+>>>>>>> origin/abdellatief
