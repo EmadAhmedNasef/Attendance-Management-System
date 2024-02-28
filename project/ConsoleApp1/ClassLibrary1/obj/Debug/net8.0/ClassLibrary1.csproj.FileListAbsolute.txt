@@ -44,3 +44,16 @@ C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleA
 C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
 C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
 C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.AssemblyReference.cache
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.AssemblyReference.cache
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.sourcelink.json
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll

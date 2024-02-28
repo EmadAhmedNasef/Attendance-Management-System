@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Simple element definitions -->
+  <xs:element name="Id" type="xs:integer"/>
+  <xs:element name="Name" type="xs:string"/>
+  <xs:element name="Email" type="xs:string"/>
+  <xs:element name="Password" type="xs:string"/>
+  <xs:element name="Rr" type="xs:string"/>
+  <xs:element name="primaryClass" type="xs:string"/>
+  <!-- Update to match your XML -->
+  <xs:element name="SecondryClass" type="xs:string"/>
+
+  <!-- Complex type for user -->
+  <xs:complexType name="UserType">
+    <xs:sequence>
+      <xs:element ref="Id"/>
+      <xs:element ref="Name"/>
+      <xs:element ref="Email"/>
+      <xs:element ref="Password"/>
+      <xs:element ref="Rr"/>
+      <xs:element ref="primaryClass" minOccurs="0"/> <!-- Optional -->
+      <xs:element ref="SecondryClass" minOccurs="0"/> <!-- Optional, corrected spelling -->
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Root element definition -->
+  <xs:element name="users">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="user" type="UserType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,132 @@
+<records xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\Nasef\Desktop\Project\XML\Records.xsd">
+  <record>
+    <date>2023-12-05</date>
+    <class name="Math">
+      <Teacher>
+        <teacherName>hamed</teacherName>
+        <teacherID>2</teacherID>
+      </Teacher>
+      <Students>
+        <Student>
+          <studentname>sayed</studentname>
+          <studentID>4</studentID>
+          <status>Absent</status>
+        </Student>
+        <Student>
+          <studentname>mohamed </studentname>
+          <studentID>3</studentID>
+          <status>Absent</status>
+        </Student>
+      </Students>
+    </class>
+    <class name="English">
+      <Teacher>
+        <teacherName>Ahmed</teacherName>
+        <teacherID>6</teacherID>
+      </Teacher>
+      <Students>
+        <Student>
+          <studentname>sayed</studentname>
+          <studentID>4</studentID>
+          <status>Present</status>
+        </Student>
+        <Student>
+          <studentname>mohamed </studentname>
+          <studentID>3</studentID>
+          <status>Present</status>
+        </Student>
+      </Students>
+    </class>
+    <class name="Math">
+      <Teacher>
+        <teacherName>hamed</teacherName>
+        <teacherID>2</teacherID>
+      </Teacher>
+      <Students>
+        <Student>
+          <studentname>abdellatief hamed</studentname>
+          <studentID>5</studentID>
+          <status>Absent</status>
+        </Student>
+      </Students>
+    </class>
+    <class name="English">
+      <Teacher>
+        <teacherName>Ahmed</teacherName>
+        <teacherID>6</teacherID>
+      </Teacher>
+      <Students>
+        <Student>
+          <studentname>abdellatief hamed</studentname>
+          <studentID>5</studentID>
+          <status>Absent</status>
+        </Student>
+      </Students>
+    </class>
+  </record>
+  <record>
+    <date>2023-11-05</date>
+    <class name="Math">
+      <Teacher>
+        <teacherName>hamed</teacherName>
+        <teacherID>2</teacherID>
+      </Teacher>
+      <Students>
+        <Student>
+          <studentname>sayed</studentname>
+          <studentID>4</studentID>
+          <status>Present</status>
+        </Student>
+        <Student>
+          <studentname>mohamed </studentname>
+          <studentID>3</studentID>
+          <status>Present</status>
+        </Student>
+      </Students>
+    </class>
+    <class name="English">
+      <Teacher>
+        <teacherName>Ahmed</teacherName>
+        <teacherID>6</teacherID>
+      </Teacher>
+      <Students>
+        <Student>
+          <studentname>sayed</studentname>
+          <studentID>4</studentID>
+          <status>Absent</status>
+        </Student>
+        <Student>
+          <studentname>mohamed </studentname>
+          <studentID>3</studentID>
+          <status>Absent</status>
+        </Student>
+      </Students>
+    </class>
+    <class name="Math">
+      <Teacher>
+        <teacherName>hamed</teacherName>
+        <teacherID>2</teacherID>
+      </Teacher>
+      <Students>
+        <Student>
+          <studentname>abdellatief hamed</studentname>
+          <studentID>5</studentID>
+          <status>Absent</status>
+        </Student>
+      </Students>
+    </class>
+    <class name="English">
+      <Teacher>
+        <teacherName>Ahmed</teacherName>
+        <teacherID>6</teacherID>
+      </Teacher>
+      <Students>
+        <Student>
+          <studentname>abdellatief hamed</studentname>
+          <studentID>5</studentID>
+          <status>Absent</status>
+        </Student>
+      </Students>
+    </class>
+  </record>
+</records>

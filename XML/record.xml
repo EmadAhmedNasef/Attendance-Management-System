@@ -1,0 +1,132 @@
+<records xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\XML\record2.xsd">
+  <record>
+    <date>2023/02/20</date>
+    <class name="Math">
+      <teacher>
+        <teacherName>hamed</teacherName>
+        <teacherID>2</teacherID>
+      </teacher>
+      <students>
+        <student>
+          <studentname>sayed</studentname>
+          <studentID>4</studentID>
+          <status>absent</status>
+        </student>
+        <student>
+          <studentname>mohamed </studentname>
+          <studentID>3</studentID>
+          <status>absent</status>
+        </student>
+      </students>
+    </class>
+    <class name="English">
+      <teacher>
+        <teacherName>Ahmed</teacherName>
+        <teacherID>6</teacherID>
+      </teacher>
+      <students>
+        <student>
+          <studentname>sayed</studentname>
+          <studentID>4</studentID>
+          <status>present</status>
+        </student>
+        <student>
+          <studentname>mohamed </studentname>
+          <studentID>3</studentID>
+          <status>present</status>
+        </student>
+      </students>
+    </class>
+    <class name="Math">
+      <teacher>
+        <teacherName>hamed</teacherName>
+        <teacherID>2</teacherID>
+      </teacher>
+      <students>
+        <student>
+          <studentname>abdellatief hamed</studentname>
+          <studentID>5</studentID>
+          <status>present</status>
+        </student>
+      </students>
+    </class>
+    <class name="English">
+      <teacher>
+        <teacherName>Ahmed</teacherName>
+        <teacherID>6</teacherID>
+      </teacher>
+      <students>
+        <student>
+          <studentname>abdellatief hamed</studentname>
+          <studentID>5</studentID>
+          <status>present</status>
+        </student>
+      </students>
+    </class>
+  </record>
+  <record>
+    <date>2024/02/21</date>
+    <class name="Math">
+      <teacher>
+        <teacherName>hamed</teacherName>
+        <teacherID>2</teacherID>
+      </teacher>
+      <students>
+        <student>
+          <studentname>sayed</studentname>
+          <studentID>4</studentID>
+          <status>present</status>
+        </student>
+        <student>
+          <studentname>mohamed </studentname>
+          <studentID>3</studentID>
+          <status>absent</status>
+        </student>
+      </students>
+    </class>
+    <class name="English">
+      <teacher>
+        <teacherName>Ahmed</teacherName>
+        <teacherID>6</teacherID>
+      </teacher>
+      <students>
+        <student>
+          <studentname>sayed</studentname>
+          <studentID>4</studentID>
+          <status>present</status>
+        </student>
+        <student>
+          <studentname>mohamed </studentname>
+          <studentID>3</studentID>
+          <status>present</status>
+        </student>
+      </students>
+    </class>
+    <class name="Math">
+      <teacher>
+        <teacherName>hamed</teacherName>
+        <teacherID>2</teacherID>
+      </teacher>
+      <students>
+        <student>
+          <studentname>abdellatief hamed</studentname>
+          <studentID>5</studentID>
+          <status>absent</status>
+        </student>
+      </students>
+    </class>
+    <class name="English">
+      <teacher>
+        <teacherName>Ahmed</teacherName>
+        <teacherID>3</teacherID>
+      </teacher>
+      <students>
+        <student>
+          <studentname>abdellatief hamed</studentname>
+          <studentID>5</studentID>
+          <status>present</status>
+        </student>
+      </students>
+    </class>
+  </record>
+</records>

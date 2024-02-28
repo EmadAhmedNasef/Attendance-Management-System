@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B7U0Wj++OUDEsaVmzEw3vyncMN6B1yCJj6jqc+qOWRVYra6Cp3yS95a9Z+5ueyKJ+mta1p/voAhZqdZhphlWWQ==",
+  "dgSpecHash": "ScdGo08/Xk4tsgLQb4po1CuLHXTBPwHif5Qs9BOHm9W0DLoXtF3RoGmjj2iSIeuPDEjJQQgkGLOG6SusclM/PA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+  "projectFilePath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nasef\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\Nasef\\.nuget\\packages\\itextsharp\\5.5.13.3\\itextsharp.5.5.13.3.nupkg.sha512"

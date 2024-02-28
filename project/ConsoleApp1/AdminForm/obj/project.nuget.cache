@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4yXG2t0xHciSUR4rHqdfGlzCrwayNpvSfXoNFaEkmFjvwos+u5lnzXc0ExH7Lr1H0vBpjPhTrU5VzXQE20T1DQ==",
+  "dgSpecHash": "PbabRHwBZnE7/pBZYEed6HUz0kMeCEOx16sCHLo1xfAXMpCjmGuUSjxcSFbjVeHNiGDLV0byYHcQbToRgQYgEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj",
+  "projectFilePath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nasef\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\Nasef\\.nuget\\packages\\closedxml\\0.102.2\\closedxml.0.102.2.nupkg.sha512",

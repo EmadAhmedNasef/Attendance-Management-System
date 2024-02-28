@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj": {}
+    "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj": {
+    "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj",
+        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj",
         "projectName": "AdminForm",
-        "projectPath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj",
+        "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\AdminForm\\AdminForm.csproj",
         "packagesPath": "C:\\Users\\Nasef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\AdminForm\\obj\\",
+        "outputPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\AdminForm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
-                "projectPath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj"
+              "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj"
               },
-              "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj": {
-                "projectPath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj"
+              "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj": {
+                "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
         "projectName": "ClassLibrary1",
-        "projectPath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
         "packagesPath": "C:\\Users\\Nasef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary1\\obj\\",
+        "outputPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj": {
+    "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj",
+        "projectUniqueName": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj",
         "projectName": "ClassLibrary3",
-        "projectPath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj",
+        "projectPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary3\\ClassLibrary3.csproj",
         "packagesPath": "C:\\Users\\Nasef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nasef\\Desktop\\Attendance-Management-System-abdellatief\\project\\ConsoleApp1\\ClassLibrary3\\obj\\",
+        "outputPath": "C:\\Users\\Nasef\\Desktop\\Project\\project\\ConsoleApp1\\ClassLibrary3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

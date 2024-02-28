@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Custom date type with pattern -->
+  <xs:simpleType name="customDateType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{4}/\d{2}/\d{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Definition of simple elements -->
+  <xs:element name="date" type="customDateType"/>
+  <xs:element name="teacherName" type="xs:string"/>
+  <xs:element name="teacherID" type="xs:integer"/>
+  <xs:element name="studentname" type="xs:string"/>
+  <xs:element name="studentID" type="xs:integer"/>
+  <xs:element name="status" type="xs:string"/>
+
+  <!-- Other type definitions remain the same -->
+  
+  <!-- Teacher type definition -->
+  <xs:complexType name="TeacherType">
+    <xs:sequence>
+      <xs:element ref="teacherName"/>
+      <xs:element ref="teacherID"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Student type definition -->
+  <xs:complexType name="StudentType">
+    <xs:sequence>
+      <xs:element ref="studentname"/>
+      <xs:element ref="studentID"/>
+      <xs:element ref="status"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Students wrapper type definition -->
+  <xs:complexType name="StudentsType">
+    <xs:sequence>
+      <xs:element name="student" type="StudentType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Class type definition -->
+  <xs:complexType name="ClassType">
+    <xs:sequence>
+      <xs:element name="teacher" type="TeacherType"/>
+      <xs:element name="students" type="StudentsType"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- Record type definition -->
+  <xs:complexType name="RecordType">
+    <xs:sequence>
+      <xs:element ref="date"/>
+      <xs:element name="class" type="ClassType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Root element definition -->
+  <xs:element name="records">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="record" type="RecordType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
