@@ -17,8 +17,7 @@ namespace ConsoleApp1
             //    Console.WriteLine(item.ToString());
             //}
 
-            Adminoperation.AddNewUser("abdellatief hamed","abdellatiefhamed@gmail.com", "14114",role.Student,classes.Math,classes.JavaScript );
-
+            xmloperators.SerializeListToXmlFile();
             Adminoperation.ShowTeachers();
             Console.WriteLine("\n---------------\n");
             Adminoperation.ShowStudents();

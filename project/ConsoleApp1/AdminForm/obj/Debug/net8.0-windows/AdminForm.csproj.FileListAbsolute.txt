@@ -1,0 +1,142 @@
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.exe
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.deps.json
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.runtimeconfig.json
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.pdb
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.GenerateResource.cache
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.AssemblyInfoInputs.cache
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.AssemblyInfo.cs
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.CoreCompileInputs.cache
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.sourcelink.json
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\refint\AdminForm.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.pdb
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.genruntimeconfig.cache
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\ref\AdminForm.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.admin.resources
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.Properties.Resources.resources
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary1.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary1.pdb
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.AssemblyReference.cache
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.CopyComplete
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.UserControlAddClass.resources
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.UserControlClass.resources
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClosedXML.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\EPPlus.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\EPPlus.Interfaces.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\EPPlus.System.Drawing.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Irony.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\XLParser.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.exe
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.deps.json
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.runtimeconfig.json
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.pdb
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClosedXML.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\EPPlus.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\EPPlus.Interfaces.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\EPPlus.System.Drawing.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Irony.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\XLParser.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary1.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary1.pdb
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.AssemblyReference.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.admin.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.Properties.Resources.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.UserControlAddClass.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.UserControlClass.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.GenerateResource.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.AssemblyInfoInputs.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.AssemblyInfo.cs
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.CoreCompileInputs.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.CopyComplete
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\refint\AdminForm.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.pdb
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.genruntimeconfig.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\ref\AdminForm.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Management.PAL.Forms.FormTeacher.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Manngment_System.PAL.Forms.LoginForm.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Manngment_System.PAL.Forms.StudentForm.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Management.PAL.User_Control.UserControlAttendence.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Management.PAL.User_Control.UserControlReports.resources
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary3.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary3.pdb
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\refint\AdminForm.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.pdb
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.AssemblyReference.cache
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.admin.resources
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Management.PAL.Forms.FormTeacher.resources
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Manngment_System.PAL.Forms.LoginForm.resources
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.Properties.Resources.resources
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Manngment_System.PAL.Forms.StudentForm.resources
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.UserControlAddClass.resources
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Management.PAL.User_Control.UserControlAttendence.resources
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.UserControlClass.resources
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Attendence_Management.PAL.User_Control.UserControlReports.resources
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.GenerateResource.cache
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.AssemblyInfoInputs.cache
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.AssemblyInfo.cs
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.CoreCompileInputs.cache
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.exe
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.deps.json
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.runtimeconfig.json
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\AdminForm.pdb
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\EPPlus.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\EPPlus.Interfaces.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\EPPlus.System.Drawing.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Irony.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\XLParser.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary1.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary3.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary1.pdb
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\bin\Debug\net8.0-windows\ClassLibrary3.pdb
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.ResolveComReference.cache
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.csproj.CopyComplete
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\AdminForm.genruntimeconfig.cache
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\AdminForm\obj\Debug\net8.0-windows\ref\AdminForm.dll

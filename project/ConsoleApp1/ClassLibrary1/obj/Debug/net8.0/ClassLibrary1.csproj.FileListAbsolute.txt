@@ -10,3 +10,37 @@ D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibr
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
 D:\iti\xml\attendance\Attendance-Management-System\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+D:\Study\Courses\Fullstack\ITI C44\C# [Programming]\eeeeeee\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Ahmed Mostafa\Desktop\final\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.AssemblyReference.cache

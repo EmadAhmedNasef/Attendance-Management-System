@@ -38,20 +38,19 @@ namespace ClassLibrary1
 
 
         //adding new user and then apply the changes to xml
-        public static void AddNewUser (string _name, string _email, string _pass, role _role = role.Student ,classes _prim = classes.not, classes _secon = classes.not)
+        public static void AddNewUser (string _name, string _email, string _pass, role _role = role.Student ,classes _prim = classes.not)
         {
 
             List<user> memberList =xmloperators.DeserializeXmlFileToList();
 
             memberList.Add(new user()
             {
-                Id = 1 + memberList.Count,
+                Id = 1 + memberList[memberList.Count-1].Id,
                 Name = _name,
                 Email = _email,
                 Password = _pass,
                 Rr = _role,
                 primaryClass = _prim,
-                SecondryClass = _secon,
             });
             xmloperators.changingxml(memberList);
         }
@@ -87,15 +86,18 @@ namespace ClassLibrary1
                 }
             }
         }
-    
 
-    
-    
-    
-    
-    
-    
-    
-    //end of the class
+
+        // searching for email and pass
+        
+
+
+
+
+
+
+
+
+        //end of the class
     }
 }

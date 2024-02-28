@@ -9,7 +9,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace ClassLibrary1
 {
 
- 
+    
     public enum role
     {
         Admin = 0, Teacher = 1, Student = 2
@@ -58,7 +58,7 @@ namespace ClassLibrary1
         
         public classes primaryClass { get => prim; set => prim = (classes)value; }
         
-        public classes SecondryClass { get => second; set => second = (classes)value; }
+        //public classes SecondryClass { get => second; set => second = (classes)value; }
 
         public override string ToString()
         {
@@ -71,16 +71,38 @@ namespace ClassLibrary1
             {
                 return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , class = {primaryClass}";
             }
-            return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , primaryclass = {primaryClass} , secondryclass = {SecondryClass}";
+            return $"id  = {Id}, Name = {Name} , Email = {Email} , role = {Rr} , class = {primaryClass} ";
         }
 
-        public static bool operator == (user left, user right)
+        
+           public static bool operator ==(user left, user right)
         {
-            return left.Id == right.Id ;
+            // Check if both objects are null
+            if (ReferenceEquals(left, null) && ReferenceEquals(right, null))
+                return true;
+
+            // If only one of the objects is null, return false
+            if (ReferenceEquals(left, null) || ReferenceEquals(right, null))
+                return false;
+
+            // Compare the Ids if both objects are not null
+            return left.Id == right.Id;
+        
+    }
+        public object Clone()
+        {
+            user ClonnedUser = new user();
+            ClonnedUser.Id = Id;
+            ClonnedUser.Name = Name;
+            ClonnedUser.Rr = Rr;
+            ClonnedUser.Email = Email;
+            ClonnedUser.second = second;
+            ClonnedUser.prim = prim;
+            return ClonnedUser;
         }
         public static bool operator !=(user left, user right)
         {
-            return !(left.Id == right.Id);
+            return !(left == right);
         }
 
 
@@ -105,12 +127,12 @@ namespace ClassLibrary1
         public bool ShouldSerializeprimaryClass()
         {
             // Serialize only if Property is not equal to default value
-            return prim != classes.not ;
+            return prim != classes.not && rr != role.Admin;
         }
-        public bool ShouldSerializeSecondryClass()
-        {
-            // Serialize only if Property is not equal to default value
-            return second != classes.not;
-        }
+        //public bool ShouldSerializeSecondryClass()
+        //{
+        //    // Serialize only if Property is not equal to default value
+        //    return second != classes.not;
+        //}
     }
 }
