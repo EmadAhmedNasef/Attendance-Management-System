@@ -38,6 +38,7 @@ namespace AdminForm
             {
                 timerDateAndTime.Stop();
                 Close();
+                Application.Exit();
             }
             else
             {

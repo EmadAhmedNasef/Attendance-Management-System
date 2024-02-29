@@ -16,6 +16,11 @@
         },
         "runtime": {
           "AdminForm.dll": {}
+        },
+        "resources": {
+          "ar-EG/AdminForm.resources.dll": {
+            "locale": "ar-EG"
+          }
         }
       },
       "BouncyCastle/1.8.9": {

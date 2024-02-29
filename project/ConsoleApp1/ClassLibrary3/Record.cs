@@ -54,7 +54,17 @@ namespace ClassLibrary3
             }
         }
 
+        public class Preference
+        {
+            private bool isArabic;
 
+            public bool IsArabic { get => isArabic; set => isArabic = value; }
+
+            public Preference getpreference()
+            {
+                return new Preference();
+            }
+        }
 
 
         

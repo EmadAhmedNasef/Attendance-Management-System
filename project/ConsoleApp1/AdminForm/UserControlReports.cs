@@ -23,7 +23,7 @@ namespace Attendence_Management.PAL.User_Control
 
         private void LoadClassNames()
         {
-            string xmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\record.xml";
+            string xmlFilePath = @"../../../../../../XML/record.xml";
             HashSet<string> classNames = new HashSet<string>();
 
             try
@@ -57,7 +57,7 @@ namespace Attendence_Management.PAL.User_Control
 
         private void comboBoxClass_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string xmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\record.xml";
+            string xmlFilePath = @"../../../../../../XML/record.xml";
 
             try
             {

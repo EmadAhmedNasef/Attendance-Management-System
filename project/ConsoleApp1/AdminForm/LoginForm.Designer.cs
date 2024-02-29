@@ -45,6 +45,10 @@
             groupBox2 = new GroupBox();
             label3 = new Label();
             toolTip1 = new ToolTip(components);
+            Language = new Label();
+            English = new RadioButton();
+            Arabic = new RadioButton();
+            التحويلاللياللغهالانجليزيهToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)picBoxClose).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBoxMaxmizie).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBoxMinimize).BeginInit();
@@ -55,46 +59,35 @@
             // 
             // picBoxClose
             // 
+            resources.ApplyResources(picBoxClose, "picBoxClose");
             picBoxClose.BorderStyle = BorderStyle.FixedSingle;
-            picBoxClose.Image = (Image)resources.GetObject("picBoxClose.Image");
-            picBoxClose.Location = new Point(1330, 12);
-            picBoxClose.Margin = new Padding(0);
             picBoxClose.Name = "picBoxClose";
-            picBoxClose.Size = new Size(31, 31);
-            picBoxClose.SizeMode = PictureBoxSizeMode.Zoom;
-            picBoxClose.TabIndex = 0;
             picBoxClose.TabStop = false;
+            toolTip1.SetToolTip(picBoxClose, resources.GetString("picBoxClose.ToolTip"));
             picBoxClose.Click += picBoxClose_Click;
             picBoxClose.MouseHover += picBoxClose_MouseHover;
             // 
             // picBoxMaxmizie
             // 
+            resources.ApplyResources(picBoxMaxmizie, "picBoxMaxmizie");
             picBoxMaxmizie.BorderStyle = BorderStyle.FixedSingle;
-            picBoxMaxmizie.ErrorImage = (Image)resources.GetObject("picBoxMaxmizie.ErrorImage");
-            picBoxMaxmizie.Image = (Image)resources.GetObject("picBoxMaxmizie.Image");
-            picBoxMaxmizie.Location = new Point(846, 232);
             picBoxMaxmizie.Name = "picBoxMaxmizie";
-            picBoxMaxmizie.Size = new Size(355, 294);
-            picBoxMaxmizie.SizeMode = PictureBoxSizeMode.Zoom;
-            picBoxMaxmizie.TabIndex = 1;
             picBoxMaxmizie.TabStop = false;
+            toolTip1.SetToolTip(picBoxMaxmizie, resources.GetString("picBoxMaxmizie.ToolTip"));
             // 
             // picBoxMinimize
             // 
+            resources.ApplyResources(picBoxMinimize, "picBoxMinimize");
             picBoxMinimize.BorderStyle = BorderStyle.FixedSingle;
-            picBoxMinimize.ErrorImage = (Image)resources.GetObject("picBoxMinimize.ErrorImage");
-            picBoxMinimize.Image = (Image)resources.GetObject("picBoxMinimize.Image");
-            picBoxMinimize.Location = new Point(1291, 12);
             picBoxMinimize.Name = "picBoxMinimize";
-            picBoxMinimize.Size = new Size(31, 31);
-            picBoxMinimize.SizeMode = PictureBoxSizeMode.Zoom;
-            picBoxMinimize.TabIndex = 2;
             picBoxMinimize.TabStop = false;
+            toolTip1.SetToolTip(picBoxMinimize, resources.GetString("picBoxMinimize.ToolTip"));
             picBoxMinimize.Click += picBoxMinimize_Click;
             picBoxMinimize.MouseHover += picBoxMinimize_MouseHover;
             // 
             // groupBox1
             // 
+            resources.ApplyResources(groupBox1, "groupBox1");
             groupBox1.Controls.Add(InvalidLogin);
             groupBox1.Controls.Add(pictureBoxHide);
             groupBox1.Controls.Add(pictureBoxShow);
@@ -103,128 +96,126 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(textBoxEmail);
             groupBox1.Controls.Add(lblusername);
-            groupBox1.Location = new Point(254, 217);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(498, 348);
-            groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Please Login First";
+            toolTip1.SetToolTip(groupBox1, resources.GetString("groupBox1.ToolTip"));
             // 
             // InvalidLogin
             // 
-            InvalidLogin.AutoSize = true;
-            InvalidLogin.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            resources.ApplyResources(InvalidLogin, "InvalidLogin");
             InvalidLogin.ForeColor = Color.Red;
-            InvalidLogin.Location = new Point(126, 250);
             InvalidLogin.Name = "InvalidLogin";
-            InvalidLogin.Size = new Size(249, 23);
-            InvalidLogin.TabIndex = 7;
-            InvalidLogin.Text = "invalid username or password";
+            toolTip1.SetToolTip(InvalidLogin, resources.GetString("InvalidLogin.ToolTip"));
             // 
             // pictureBoxHide
             // 
+            resources.ApplyResources(pictureBoxHide, "pictureBoxHide");
             pictureBoxHide.BorderStyle = BorderStyle.FixedSingle;
-            pictureBoxHide.ErrorImage = (Image)resources.GetObject("pictureBoxHide.ErrorImage");
-            pictureBoxHide.Image = (Image)resources.GetObject("pictureBoxHide.Image");
-            pictureBoxHide.Location = new Point(421, 196);
-            pictureBoxHide.Margin = new Padding(0);
             pictureBoxHide.Name = "pictureBoxHide";
-            pictureBoxHide.Size = new Size(34, 27);
-            pictureBoxHide.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBoxHide.TabIndex = 6;
             pictureBoxHide.TabStop = false;
+            toolTip1.SetToolTip(pictureBoxHide, resources.GetString("pictureBoxHide.ToolTip"));
             pictureBoxHide.Click += pictureBoxHide_Click;
             pictureBoxHide.MouseHover += pictureBoxHide_MouseHover_1;
             // 
             // pictureBoxShow
             // 
+            resources.ApplyResources(pictureBoxShow, "pictureBoxShow");
             pictureBoxShow.BorderStyle = BorderStyle.FixedSingle;
-            pictureBoxShow.ErrorImage = (Image)resources.GetObject("pictureBoxShow.ErrorImage");
-            pictureBoxShow.Image = (Image)resources.GetObject("pictureBoxShow.Image");
-            pictureBoxShow.Location = new Point(421, 196);
-            pictureBoxShow.Margin = new Padding(0);
             pictureBoxShow.Name = "pictureBoxShow";
-            pictureBoxShow.Size = new Size(34, 27);
-            pictureBoxShow.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBoxShow.TabIndex = 5;
             pictureBoxShow.TabStop = false;
+            toolTip1.SetToolTip(pictureBoxShow, resources.GetString("pictureBoxShow.ToolTip"));
             pictureBoxShow.Click += pictureBoxShow_Click;
             pictureBoxShow.MouseHover += pictureBoxShow_MouseHover;
             // 
             // btnLogin
             // 
+            resources.ApplyResources(btnLogin, "btnLogin");
             btnLogin.BackColor = Color.Bisque;
-            btnLogin.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnLogin.ForeColor = Color.Blue;
-            btnLogin.Location = new Point(147, 288);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(201, 39);
-            btnLogin.TabIndex = 4;
-            btnLogin.Text = "Log In";
+            toolTip1.SetToolTip(btnLogin, resources.GetString("btnLogin.ToolTip"));
             btnLogin.UseVisualStyleBackColor = false;
             btnLogin.Click += btnLogin_Click;
             // 
             // textBoxPassword
             // 
-            textBoxPassword.Location = new Point(64, 196);
+            resources.ApplyResources(textBoxPassword, "textBoxPassword");
             textBoxPassword.Name = "textBoxPassword";
-            textBoxPassword.Size = new Size(354, 27);
-            textBoxPassword.TabIndex = 3;
+            toolTip1.SetToolTip(textBoxPassword, resources.GetString("textBoxPassword.ToolTip"));
             textBoxPassword.UseSystemPasswordChar = true;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(64, 150);
+            resources.ApplyResources(label1, "label1");
             label1.Name = "label1";
-            label1.Size = new Size(95, 23);
-            label1.TabIndex = 2;
-            label1.Text = "Password :";
+            toolTip1.SetToolTip(label1, resources.GetString("label1.ToolTip"));
             // 
             // textBoxEmail
             // 
-            textBoxEmail.Location = new Point(64, 103);
+            resources.ApplyResources(textBoxEmail, "textBoxEmail");
             textBoxEmail.Name = "textBoxEmail";
-            textBoxEmail.Size = new Size(354, 27);
-            textBoxEmail.TabIndex = 1;
+            toolTip1.SetToolTip(textBoxEmail, resources.GetString("textBoxEmail.ToolTip"));
             // 
             // lblusername
             // 
-            lblusername.AutoSize = true;
-            lblusername.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblusername.Location = new Point(64, 59);
+            resources.ApplyResources(lblusername, "lblusername");
             lblusername.Name = "lblusername";
-            lblusername.Size = new Size(64, 23);
-            lblusername.TabIndex = 0;
-            lblusername.Text = "Email :";
+            toolTip1.SetToolTip(lblusername, resources.GetString("lblusername.ToolTip"));
             // 
             // groupBox2
             // 
-            groupBox2.Location = new Point(795, 186);
+            resources.ApplyResources(groupBox2, "groupBox2");
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(10, 441);
-            groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
+            toolTip1.SetToolTip(groupBox2, resources.GetString("groupBox2.ToolTip"));
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            resources.ApplyResources(label3, "label3");
             label3.ForeColor = Color.Blue;
-            label3.Location = new Point(846, 534);
             label3.Name = "label3";
-            label3.Size = new Size(369, 31);
-            label3.TabIndex = 8;
-            label3.Text = "Attendencd Management System";
+            toolTip1.SetToolTip(label3, resources.GetString("label3.ToolTip"));
             // 
+            // Language
+            // 
+            resources.ApplyResources(Language, "Language");
+            Language.Name = "Language";
+            toolTip1.SetToolTip(Language, resources.GetString("Language.ToolTip"));
+            // 
+            // English
+            // 
+            resources.ApplyResources(English, "English");
+            English.Name = "English";
+            English.TabStop = true;
+            toolTip1.SetToolTip(English, resources.GetString("English.ToolTip"));
+            English.UseVisualStyleBackColor = true;
+            English.Location = new Point(250,64);
+            English.Text = "English";
+            English.CheckedChanged += English_CheckedChanged;
+            
+            // 
+            // Arabic
+            // 
+            resources.ApplyResources(Arabic, "Arabic");
+            Arabic.Name = "Arabic";
+            Arabic.TabStop = true;
+            toolTip1.SetToolTip(Arabic, resources.GetString("Arabic.ToolTip"));
+            Arabic.UseVisualStyleBackColor = true;
+            Arabic.Location = new Point(400, 64);
+            Arabic.Text = "Arabic";  
+            Arabic.CheckedChanged += Arabic_CheckedChanged;
+            // 
+        
+            // 
+          
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.White;
-            ClientSize = new Size(1334, 825);
+            Controls.Add(Arabic);
+            Controls.Add(English);
+            Controls.Add(Language);
             Controls.Add(label3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -233,8 +224,7 @@
             Controls.Add(picBoxClose);
             FormBorderStyle = FormBorderStyle.None;
             Name = "LoginForm";
-            StartPosition = FormStartPosition.WindowsDefaultBounds;
-            Text = "Login";
+            toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             Load += LoginForm_Load;
             ((System.ComponentModel.ISupportInitialize)picBoxClose).EndInit();
             ((System.ComponentModel.ISupportInitialize)picBoxMaxmizie).EndInit();
@@ -264,5 +254,9 @@
         private GroupBox groupBox2;
         private Label label3;
         private ToolTip toolTip1;
+        private ToolStripMenuItem التحويلاللياللغهالانجليزيهToolStripMenuItem;
+        private Label Language;
+        private RadioButton English;
+        private RadioButton Arabic;
     }
 }

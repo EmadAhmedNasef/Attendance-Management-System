@@ -23,7 +23,7 @@ namespace Attendence_Management.PAL.User_Control
 
         private void LoadClassNames()
         {
-            string xmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\record.xml";
+            string xmlFilePath = @"../../../../../../XML/record.xml";
             HashSet<string> classNames = new HashSet<string>();
 
             try
@@ -62,7 +62,7 @@ namespace Attendence_Management.PAL.User_Control
 
         private void comboBoxClass_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string xmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\record.xml";
+            string xmlFilePath = @"../../../../../../XML/record.xml";
 
             try
             {
@@ -144,14 +144,14 @@ namespace Attendence_Management.PAL.User_Control
                 try
                 {
                     XmlDocument xmlDocument = new XmlDocument();
-                    xmlDocument.Load(@"C:\Users\Nasef\Desktop\Project\XML\record.xml");
+                    xmlDocument.Load(@"../../../../../../XML/record.xml");
 
                     // Update only the student node with the matching student ID, class name, and date
                     XmlNode studentNode = xmlDocument.SelectSingleNode($"//record[date='{selectedDate:yyyy/MM/dd}']/class[@name='{className}']/students/student[studentID='{studentID}']");
                     if (studentNode != null)
                     {
                         studentNode.SelectSingleNode("status").InnerText = isChecked ? "present" : "absent";
-                        xmlDocument.Save(@"C:\Users\Nasef\Desktop\Project\XML\record.xml");
+                        xmlDocument.Save(@"../../../../../../XML/record.xml");
                     }
                 }
                 catch (Exception ex)
@@ -223,7 +223,7 @@ namespace Attendence_Management.PAL.User_Control
 
         private void pictureBoxPrint_Click(object sender, EventArgs e)
         {
-            string htmlFilePath = @"C:\Users\Nasef\Desktop\Project\XML\StudentAttendance.html";
+            string htmlFilePath = @"C:\Users\Nasef\Desktop\Project\Attendence Management\StudentAttendance.html";
             ExportToHtml(dataGridViewMarkAttendance, htmlFilePath);
         }
 

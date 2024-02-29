@@ -32,6 +32,18 @@ C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleA
 C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ClassLibrary3.pdb
 C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ref\ClassLibrary3.dll
 C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ClassLibrary3.csproj.AssemblyReference.cache
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\bin\Debug\net8.0\ClassLibrary3.deps.json
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\bin\Debug\net8.0\ClassLibrary3.dll
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\bin\Debug\net8.0\ClassLibrary3.pdb
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ClassLibrary3.csproj.AssemblyReference.cache
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ClassLibrary3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ClassLibrary3.AssemblyInfoInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ClassLibrary3.AssemblyInfo.cs
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ClassLibrary3.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ClassLibrary3.dll
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\refint\ClassLibrary3.dll
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ClassLibrary3.pdb
+C:\Users\Ahmed Mostafa\Desktop\Attendance-Management-System-abdellatief\project\ConsoleApp1\ClassLibrary3\obj\Debug\net8.0\ref\ClassLibrary3.dll
 C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary3\bin\Debug\net8.0\ClassLibrary3.deps.json
 C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary3\bin\Debug\net8.0\ClassLibrary3.dll
 C:\Users\Nasef\Desktop\Project\project\ConsoleApp1\ClassLibrary3\bin\Debug\net8.0\ClassLibrary3.pdb

@@ -54,6 +54,7 @@ namespace Attendence_Management.PAL.Forms
             {
                 timerDateAndTime.Stop();
                 Close();
+                Application.Exit();
             }
             else
             {

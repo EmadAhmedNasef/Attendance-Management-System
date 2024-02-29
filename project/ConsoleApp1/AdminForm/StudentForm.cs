@@ -26,20 +26,42 @@ namespace Attendence_Manngment_System.PAL.Forms
 {
     public partial class StudentForm : Form
     {
+        private Preference pref;
         private readonly ClassLibrary1.user currentUser;
         HashSet<string> _classes;
         List<record> _records;
         private DateOnly dateOnly;
         public StudentForm() { }
-        public StudentForm(ClassLibrary1.user _currentUser)
+        public StudentForm(ClassLibrary1.user _currentUser, Preference _p)
         {
             this.currentUser = _currentUser;
             int id = currentUser.Id;
             _records = getRecords(currentUser.Id);
             loadClasses();
-            InitializeComponent();
-            timerDateAndTime.Start();
+            pref = _p;
 
+           
+            InitializeComponent();
+            if (pref.IsArabic)
+            {
+                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("ar-EG");
+                Minimize.Text = "تصغير";
+                BtnLogOut.Text = "تسجيل الخروج";
+                label3.Text = "اظهار الغياب";
+                Datelbl.Text = "التاريخ";
+                Classlbl.Text = "الفصل";
+                Datelbl.Location = new Point(275, 60);
+                Classlbl.Location = new Point(748,60);
+                label3.Location = new Point(800,18);
+                label1.Text = ":الاسم";
+                label2.Text = ":الدور";
+                label1.Location = new Point(375, 28);
+                label2.Location = new Point(375, 66);
+
+
+            }
+            timerDateAndTime.Start();
+           
             dataGridRecords.Columns.Add("StudentID", "Student ID");
             dataGridRecords.Columns.Add("StudentName", "Student Name");
             dataGridRecords.Columns.Add("Status", "Status");
@@ -126,7 +148,7 @@ namespace Attendence_Manngment_System.PAL.Forms
         public List<record> getRecords(int id)
         {
             List<record> records = new List<record>();
-            string filepath = @"C:\Users\Nasef\Desktop\Attendance-Management-System-abdellatief\XML\record.xml";
+            string filepath = @"../../../../../../XML/record.xml";
             XDocument doc = XDocument.Load(filepath);
 
             var query = from record in doc.Descendants("record")
@@ -193,16 +215,36 @@ namespace Attendence_Manngment_System.PAL.Forms
 
         private void BtnLogOut_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Are You Sure You Want To Log Out?", "LogOut", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (dialogResult == DialogResult.Yes)
+            if (pref.IsArabic)
             {
-                timerDateAndTime.Stop();
-                Close();
+                DialogResult dialogResult = MessageBox.Show("هل انت متاكد من الخروج", "تسجيل خروج", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    timerDateAndTime.Stop();
+                    Close();
+                    Application.Exit();
+                }
+                else
+                {
+                    panelExpand.Hide();
+                }
             }
+
             else
             {
-                panelExpand.Hide();
+                DialogResult dialogResult = MessageBox.Show("Are You Sure You Want To Log Out?", "LogOut", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    timerDateAndTime.Stop();
+                    Close();
+                    Application.Exit();
+                }
+                else
+                {
+                    panelExpand.Hide();
+                }
             }
+           
 
         }
 

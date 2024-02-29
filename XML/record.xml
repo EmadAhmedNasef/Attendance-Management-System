@@ -28,12 +28,12 @@
         <student>
           <studentname>sayed</studentname>
           <studentID>4</studentID>
-          <status>present</status>
+          <status>absent</status>
         </student>
         <student>
           <studentname>mohamed </studentname>
           <studentID>3</studentID>
-          <status>present</status>
+          <status>absent</status>
         </student>
       </students>
     </class>
@@ -80,7 +80,7 @@
         <student>
           <studentname>mohamed </studentname>
           <studentID>3</studentID>
-          <status>absent</status>
+          <status>present</status>
         </student>
       </students>
     </class>
@@ -111,7 +111,7 @@
         <student>
           <studentname>abdellatief hamed</studentname>
           <studentID>5</studentID>
-          <status>absent</status>
+          <status>present</status>
         </student>
       </students>
     </class>
